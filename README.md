@@ -31,12 +31,6 @@ counseling-llm/
 └── README.md
 ```
 
-## 🎯 Objective
-
-Train an LLM to:
-1. **Input**: Situation description + conversation context
-2. **Output**: Appropriate counseling question to ask next
-
 ## 📊 Data Flow
 
 1. **Raw Data** (`ESConv.json`) → **Extract Questions** → **Processed Data**
@@ -85,18 +79,3 @@ Each training example follows this format:
 - **`prepare_llm_data.py`**: Format data for LLM training with proper prompts
 - **`generate_questions.py`**: Use LLM to generate counseling questions
 - **`evaluate_questions.py`**: Evaluate quality of generated questions
-
-## 📈 Evaluation Metrics
-
-- **Relevance**: How well does the question relate to the situation and context?
-- **Appropriateness**: Is the question suitable for counseling?
-- **Diversity**: Are questions varied and not repetitive?
-- **Feedback Correlation**: Do generated questions correlate with high feedback scores?
-
-## 🔧 Configuration
-
-Modify `configs/model_config.json` to adjust:
-- Model parameters
-- Training settings
-- Evaluation criteria
-- Prompt templates 
