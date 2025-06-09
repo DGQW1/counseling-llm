@@ -119,7 +119,7 @@ def call_llm(prompt: str, model_provider: str = "gpt4o-mini", model_config: Dict
             client = anthropic.Anthropic(api_key=api_key)
             
             response = client.messages.create(
-                model="claude-3-5-sonnet-20241022",  # or "claude-3-haiku-20240307" for cheaper
+                model="claude-3-5-sonnet-20241022", 
                 max_tokens=150,
                 temperature=0.7,
                 messages=[
@@ -160,36 +160,28 @@ def call_llm(prompt: str, model_provider: str = "gpt4o-mini", model_config: Dict
     # Llama (via Together AI or other API providers)
     def call_llama_api(prompt: str) -> str:
         try:
-            import requests
+            from together import Together
             
             # Load API key from environment
             api_key = os.getenv("TOGETHER_API_KEY")
             if not api_key:
                 return "ERROR: TOGETHER_API_KEY not found in environment variables"
             
-            headers = {
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json"
-            }
+            client = Together(api_key=api_key)
             
-            data = {
-                "model": "meta-llama/Llama-3.1-70B-Instruct-Turbo",
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 150,
-                "temperature": 0.7
-            }
-            
-            response = requests.post(
-                "https://api.together.xyz/v1/chat/completions",
-                headers=headers,
-                json=data,
-                timeout=60
+            response = client.chat.completions.create(
+                model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                max_tokens=150,
+                temperature=0.7
             )
             
-            if response.status_code == 200:
-                return response.json()['choices'][0]['message']['content'].strip()
-            else:
-                return f"ERROR: Together API returned status {response.status_code}"
+            return response.choices[0].message.content.strip()
                 
         except Exception as e:
             return f"ERROR: Llama (API) call failed - {str(e)}"
@@ -361,7 +353,7 @@ def main():
     print("🤖 Starting LLM Question Generation Pipeline...")
     
     # Configuration
-    MODEL_PROVIDER = "claude"  # Options: "gpt4o", "gpt4o-mini", "gemini", "claude", "llama", "llama-api", "mock"
+    MODEL_PROVIDER = "llama-api"  # Options: "gpt4o", "gpt4o-mini", "gemini", "claude", "llama", "llama-api", "mock"
     MAX_QUESTIONS = 100
     output_path = f"../../results/llm_generated_questions_{MODEL_PROVIDER}.json"
     batch_size = 20

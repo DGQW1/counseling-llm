@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 0,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I hate my job but I am scared to quit and seek a new career.",
+      "context": "seeker: Hello"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI hate my job but I am scared to quit and seek a new career.\n\nConversation History:\nseeker: Hello\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling a bit stuck and uncertain about your current situation. Can you tell me more about what's been going on with your job that's making you feel like you want to quit, and what's holding you back from taking that step?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:23.724836",
+      "processing_time_seconds": 5.43,
+      "success": true
+    }
+  },
+  {
+    "id": 1,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I hate my job but I am scared to quit and seek a new career.",
+      "context": "seeker: Hello | supporter: Hello, what would you like to talk about? | seeker: I am having a lot of anxiety about quitting my current job. It is too stressful but pays well"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI hate my job but I am scared to quit and seek a new career.\n\nConversation History:\nseeker: Hello | supporter: Hello, what would you like to talk about? | seeker: I am having a lot of anxiety about quitting my current job. It is too stressful but pays well\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling stuck between the financial security of your current job and the emotional toll it's taking on you. Can you tell me more about what's holding you back from exploring new career options - is it the fear of uncertainty, financial instability, or something else that's making it hard for you to consider making a change?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:29.906566",
+      "processing_time_seconds": 5.68,
+      "success": true
+    }
+  },
+  {
+    "id": 2,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I hate my job but I am scared to quit and seek a new career.",
+      "context": "seeker: Hello | supporter: Hello, what would you like to talk about? | seeker: I am having a lot of anxiety about quitting my current job. It is too stressful but pays well | supporter: What makes your job stressful for you? | seeker: I have to deal with many people in hard financial situations and it is upsetting"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI hate my job but I am scared to quit and seek a new career.\n\nConversation History:\nseeker: Hello | supporter: Hello, what would you like to talk about? | seeker: I am having a lot of anxiety about quitting my current job. It is too stressful but pays well | supporter: What makes your job stressful for you? | seeker: I have to deal with many people in hard financial situations and it is upsetting\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How do you think your life would change if you were able to find a career that was less stressful and more aligned with your emotional well-being, and what are some of the fears that come up for you when you imagine taking that step?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:36.987355",
+      "processing_time_seconds": 6.58,
+      "success": true
+    }
+  },
+  {
+    "id": 3,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I hate my job but I am scared to quit and seek a new career.",
+      "context": "supporter: Do you help your clients to make it to a better financial situation? | seeker: I do, but often they are not going to get back to what they want. Many people are going to lose their home when safeguards are lifted | supporter: But you offer them a better future than what they have currently. It may not be what they wanted, but it helps them in the long run. | seeker: That is true but sometimes I feel like I should put my feelings and health first | supporter: I can understand that."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI hate my job but I am scared to quit and seek a new career.\n\nConversation History:\nsupporter: Do you help your clients to make it to a better financial situation? | seeker: I do, but often they are not going to get back to what they want. Many people are going to lose their home when safeguards are lifted | supporter: But you offer them a better future than what they have currently. It may not be what they wanted, but it helps them in the long run. | seeker: That is true but sometimes I feel like I should put my feelings and health first | supporter: I can understand that.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What are some of the emotions that come up for you when you think about prioritizing your own feelings and health, and how might that relate to your current job situation and the fear of seeking a new career?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:40.959383",
+      "processing_time_seconds": 3.47,
+      "success": true
+    }
+  },
+  {
+    "id": 4,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be a really isolating and painful experience. Can you tell me more about what's been going on with your friends that's making you feel so unsupported, and how has that been affecting you lately?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:46.781516",
+      "processing_time_seconds": 5.32,
+      "success": true
+    }
+  },
+  {
+    "id": 5,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "supporter: Hello how are you? | seeker: hello im looking for someone to talk to | seeker: im fine how are you"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nsupporter: Hello how are you? | seeker: hello im looking for someone to talk to | seeker: im fine how are you\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling a bit isolated and unsupported by the people around you. Can you tell me more about what's been going on with your friends that's making you feel like you don't really have any friends anymore, and how has that been affecting you emotionally?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:53.338374",
+      "processing_time_seconds": 6.06,
+      "success": true
+    }
+  },
+  {
+    "id": 6,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: im fine how are you | supporter: I'm doing ok I'm glad you are good. Is it snowing by you? | supporter: Merry Christmas! | seeker: thats great and no its not snowing its very cold thow | seeker: merry christmas to you also"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: im fine how are you | supporter: I'm doing ok I'm glad you are good. Is it snowing by you? | supporter: Merry Christmas! | seeker: thats great and no its not snowing its very cold thow | seeker: merry christmas to you also\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're going through a tough time with your friendships, and I want to make sure I understand what's been going on for you. Can you tell me more about what's making you feel like you don't have supportive friends, and how has that been affecting you lately?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:31:59.074427",
+      "processing_time_seconds": 5.23,
+      "success": true
+    }
+  },
+  {
+    "id": 7,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: merry christmas to you also | supporter: How can I help you today? | seeker: im having some issues with friends not actually being friends | supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right? | seeker: yes"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: merry christmas to you also | supporter: How can I help you today? | seeker: im having some issues with friends not actually being friends | supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right? | seeker: yes\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How have you been feeling about yourself and your relationships with these friends lately, and what's been the most painful or challenging part of realizing they might not be as supportive as you thought?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:09.493178",
+      "processing_time_seconds": 9.91,
+      "success": true
+    }
+  },
+  {
+    "id": 8,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: im having some issues with friends not actually being friends | supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right? | seeker: yes | supporter: I understand that... Did something happen that makes you feel like that? | seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: im having some issues with friends not actually being friends | supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right? | seeker: yes | supporter: I understand that... Did something happen that makes you feel like that? | seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How have you been feeling about yourself and your worth as a friend, now that you've noticed this lack of communication and interaction from the people you considered friends?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:19.969748",
+      "processing_time_seconds": 9.97,
+      "success": true
+    }
+  },
+  {
+    "id": 9,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: yes | supporter: I understand that... Did something happen that makes you feel like that? | seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc | supporter: Is this a significant other? | seeker: no friends"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: yes | supporter: I understand that... Did something happen that makes you feel like that? | seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc | supporter: Is this a significant other? | seeker: no friends\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How have you been taking care of yourself and coping with the feelings of isolation and disconnection from your friends, and what has been the most challenging part of this experience for you?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:27.832552",
+      "processing_time_seconds": 7.36,
+      "success": true
+    }
+  },
+  {
+    "id": 10,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc | supporter: Is this a significant other? | seeker: no friends | supporter: Are they ignoring you? | seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc | supporter: Is this a significant other? | seeker: no friends | supporter: Are they ignoring you? | seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about being left out of these interactions and conversations with your friends, and what do you think you might be needing from them in order to feel seen and connected again?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:34.792645",
+      "processing_time_seconds": 6.45,
+      "success": true
+    }
+  },
+  {
+    "id": 11,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not | supporter: Are you sure they are okay? Or not away with family for the holidays? | seeker: it doesnt matter they still keep open communication with each other | supporter: That's no good what do you think the problem is? | seeker: I believe its because I am the friend that has financial trouble and normally needs to borrow money"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not | supporter: Are you sure they are okay? Or not away with family for the holidays? | seeker: it doesnt matter they still keep open communication with each other | supporter: That's no good what do you think the problem is? | seeker: I believe its because I am the friend that has financial trouble and normally needs to borrow money\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How do you think their apparent distance from you, especially given your financial struggles, has affected your sense of self-worth and overall emotional well-being?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:38.374824",
+      "processing_time_seconds": 3.08,
+      "success": true
+    }
+  },
+  {
+    "id": 12,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "seeker: no im not currently | seeker: I also think sometimes to myself that they don't answer because they think I'm asking for money | supporter: I see, Have you tried for unemployment? | seeker: yes i dont qualify | supporter: I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nseeker: no im not currently | seeker: I also think sometimes to myself that they don't answer because they think I'm asking for money | supporter: I see, Have you tried for unemployment? | seeker: yes i dont qualify | supporter: I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How have you been feeling about yourself and your worth as a friend, now that you've been experiencing this lack of support and responsiveness from the people you consider friends?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:46.586559",
+      "processing_time_seconds": 7.71,
+      "success": true
+    }
+  },
+  {
+    "id": 13,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "supporter: Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same. | seeker: yes | supporter: Well that is about all that can be done and wait for them to come around...Do you have any hobbies? | seeker: yes i like to read and play music | supporter: I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nsupporter: Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same. | seeker: yes | supporter: Well that is about all that can be done and wait for them to come around...Do you have any hobbies? | seeker: yes i like to read and play music | supporter: I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "\"How do you think engaging in activities you enjoy, such as reading and playing music, might help you cope with the feelings of not having supportive friends, and are there any specific emotions or needs that you feel are not being met in your current friendships?\"",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:50.460177",
+      "processing_time_seconds": 3.37,
+      "success": true
+    }
+  },
+  {
+    "id": 14,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .",
+      "context": "supporter: I'm sure they will come around. | seeker: i think i would start off walking i am not in shape to run | seeker: yes i will give them time maybe stop reaching out so much | supporter: That may be a good idea. Good talk | seeker: yes thank you for talking with me and giving great advice"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have complete unsupportive friends its to the point where i dont even feel like i have friends any more .\n\nConversation History:\nsupporter: I'm sure they will come around. | seeker: i think i would start off walking i am not in shape to run | seeker: yes i will give them time maybe stop reaching out so much | supporter: That may be a good idea. Good talk | seeker: yes thank you for talking with me and giving great advice\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about the idea of giving your friends space and potentially distancing yourself from them, and what do you think you might need to feel supported and valued in your relationships?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:32:58.492719",
+      "processing_time_seconds": 7.53,
+      "success": true
+    }
+  },
+  {
+    "id": 15,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be a really uncertain and stressful situation to be in. It sounds like you're feeling a bit anxious about your job security right now. Can you tell me more about what's been going through your mind since you've been in quarantine, and how you've been feeling about the possibility of returning to work?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:33:04.310404",
+      "processing_time_seconds": 5.32,
+      "success": true
+    }
+  },
+  {
+    "id": 16,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.",
+      "context": "supporter: Hi there, how are you feeling today? | seeker: Hello"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.\n\nConversation History:\nsupporter: Hi there, how are you feeling today? | seeker: Hello\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be a really uncertain and stressful time. It sounds like you're feeling a bit anxious about your job situation. Can you tell me more about what's been going through your mind since you've been in quarantine, and how you've been coping with the fear of not being taken back to work?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:33:12.478071",
+      "processing_time_seconds": 7.66,
+      "success": true
+    }
+  },
+  {
+    "id": 17,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.",
+      "context": "seeker: I have an advantage because I have a professional background in cooking, so I can take random ingredients and turn them into wonderful and nutritious meals. I just need to have the ingredients. | supporter: That sounds very encouraging! It's amazing what you can make even with cheap food. Noodles , for instance, are very versatile :) | seeker: You are right. I am definitely not going to sit and pout. I am just a bit frustrated with the system. | supporter: It's a very strange situation and I suspect that some of the authorities just feel overwhelmed and have no idea how to cope. | seeker: I am concerned that my boss may try to not take me back at my job. Because this is an \"at will\" state, he can terminate me without cause. Although he can not legally fire me for being ill with COVID, he can take me back and simply release me the same day saying that I have become redundant."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.\n\nConversation History:\nseeker: I have an advantage because I have a professional background in cooking, so I can take random ingredients and turn them into wonderful and nutritious meals. I just need to have the ingredients. | supporter: That sounds very encouraging! It's amazing what you can make even with cheap food. Noodles , for instance, are very versatile :) | seeker: You are right. I am definitely not going to sit and pout. I am just a bit frustrated with the system. | supporter: It's a very strange situation and I suspect that some of the authorities just feel overwhelmed and have no idea how to cope. | seeker: I am concerned that my boss may try to not take me back at my job. Because this is an \"at will\" state, he can terminate me without cause. Although he can not legally fire me for being ill with COVID, he can take me back and simply release me the same day saying that I have become redundant.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you coping with the uncertainty and fear of potentially losing your job, and what are some emotions that come up for you when you think about the possibility of your employer not taking you back or terminating you after you return?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:33:30.095825",
+      "processing_time_seconds": 17.11,
+      "success": true
+    }
+  },
+  {
+    "id": 18,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am depressed staying home due to COVID",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am depressed staying home due to COVID\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Counseling Question: \"Can you tell me more about what's been the most challenging part for you about staying home due to COVID, and how you've been taking care of yourself during this time?\" \n\n(This question acknowledges the client's situation, invites them to share their feelings and experiences, and expresses concern for their well-being, while also exploring potential coping mechanisms.)",
+    "metadata": {
+      "timestamp": "2025-06-08T23:33:32.139157",
+      "processing_time_seconds": 1.54,
+      "success": true
+    }
+  },
+  {
+    "id": 19,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am depressed staying home due to COVID",
+      "context": "supporter: Hi! How are you doing? | seeker: I am dong good. You?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am depressed staying home due to COVID\n\nConversation History:\nsupporter: Hi! How are you doing? | seeker: I am dong good. You?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're trying to stay positive, but I want to make sure I understand what's really going on for you. Can you tell me more about what it's been like for you to be staying home due to COVID, and how that's been affecting you emotionally?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:33:49.038763",
+      "processing_time_seconds": 16.39,
+      "success": true
+    }
+  },
+  {
+    "id": 20,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am depressed staying home due to COVID",
+      "context": "supporter: Hi! How are you doing? | seeker: I am dong good. You? | supporter: I am okay thanks but it is a worrying year. Have you been worrying about anything? | seeker: I have been staying home since last March due to COVID; getting very depressed."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am depressed staying home due to COVID\n\nConversation History:\nsupporter: Hi! How are you doing? | seeker: I am dong good. You? | supporter: I am okay thanks but it is a worrying year. Have you been worrying about anything? | seeker: I have been staying home since last March due to COVID; getting very depressed.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been the most challenging part for you about staying home for so long, and how have you been taking care of yourself during this difficult time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:33:50.979047",
+      "processing_time_seconds": 1.43,
+      "success": true
+    }
+  },
+  {
+    "id": 21,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am depressed staying home due to COVID",
+      "context": "supporter: Sometimes it does just make it easier to know that other people are in the same situation as you :) | seeker: You mean share experiences among the friends? | supporter: Yes .. or at least share coping mechanisms perhaps? | supporter: Do you have any hobbies that you can occupy yourself with right now? | seeker: Yes, I pay musical instruments but do to COVID could not play with the band"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am depressed staying home due to COVID\n\nConversation History:\nsupporter: Sometimes it does just make it easier to know that other people are in the same situation as you :) | seeker: You mean share experiences among the friends? | supporter: Yes .. or at least share coping mechanisms perhaps? | supporter: Do you have any hobbies that you can occupy yourself with right now? | seeker: Yes, I pay musical instruments but do to COVID could not play with the band\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How did it feel for you when you had to stop playing with the band due to COVID, and are there any ways you've been able to adapt or find alternative outlets for your music that might help you cope with the isolation?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:06.472065",
+      "processing_time_seconds": 14.99,
+      "success": true
+    }
+  },
+  {
+    "id": 22,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling right now, knowing that the life and future you thought you were building with your boyfriend was based on lies, and what's been the most challenging part for you to come to terms with in this situation?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:09.308469",
+      "processing_time_seconds": 2.33,
+      "success": true
+    }
+  },
+  {
+    "id": 23,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",
+      "context": "supporter: Hello, what is life like for you at the moment? | seeker: Infinitely complicated. | seeker: Too many decisions. I don't know what to do. | supporter: I am sorry to hear that but I am happy to listen and help you if I can"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.\n\nConversation History:\nsupporter: Hello, what is life like for you at the moment? | seeker: Infinitely complicated. | seeker: Too many decisions. I don't know what to do. | supporter: I am sorry to hear that but I am happy to listen and help you if I can\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That must be incredibly painful and overwhelming for you. Can you tell me more about what's been going through your mind since you discovered the lies, and how you're feeling about the future you thought you were building with your boyfriend?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:16.800299",
+      "processing_time_seconds": 6.99,
+      "success": true
+    }
+  },
+  {
+    "id": 24,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",
+      "context": "seeker: My mind agrees. | seeker: My stupid emotions are clouding things. | supporter: Well, if you were to give him an ultimatum what do you think he would say? | seeker: I did. | seeker: LOL"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.\n\nConversation History:\nseeker: My mind agrees. | seeker: My stupid emotions are clouding things. | supporter: Well, if you were to give him an ultimatum what do you think he would say? | seeker: I did. | seeker: LOL\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling a bit torn between what your mind is telling you and what your emotions are saying. You've already given him an ultimatum, and it seems like there's been a bit of a humorous response from him. I'm curious, how did you feel in that moment when he said something that made you laugh, despite the seriousness of the situation? Did it give you a glimpse into the complexity of your feelings towards him, or was it more of a coping mechanism for you?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:26.106424",
+      "processing_time_seconds": 8.8,
+      "success": true
+    }
+  },
+  {
+    "id": 25,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",
+      "context": "supporter: I can tell that you feel that you are being cheated here. I can't tell you what to do but don't you think you deserve better? | seeker: I guess that's what I'm trying to figure out. Should I give him time to prove himself now that he's backed into a corner. | supporter: It's not for me to say but I wonder if he's really going to change as he has not already. | seeker: That's not an easy question to answer. He treats me very well. Always has. And he is frantically trying to accomodate me, now htat I know. | seeker: I agree with you. It's one of my fears."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.\n\nConversation History:\nsupporter: I can tell that you feel that you are being cheated here. I can't tell you what to do but don't you think you deserve better? | seeker: I guess that's what I'm trying to figure out. Should I give him time to prove himself now that he's backed into a corner. | supporter: It's not for me to say but I wonder if he's really going to change as he has not already. | seeker: That's not an easy question to answer. He treats me very well. Always has. And he is frantically trying to accomodate me, now htat I know. | seeker: I agree with you. It's one of my fears.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you reconciling the fact that he has treated you well and is trying to accommodate you now, with the pain and mistrust you feel because of the lies he's been telling you, and what does that inner conflict feel like for you right now?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:28.456978",
+      "processing_time_seconds": 1.85,
+      "success": true
+    }
+  },
+  {
+    "id": 26,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",
+      "context": "seeker: I agree with you. It's one of my fears. | supporter: How do your children feel about this? And his? | seeker: MY children (6 and 9) have been living with him in their lives as a male figure who is growing into a father figure. He and I have been together for fifteen months, and part-time living together for six. | seeker: This isn't a new relationship. That's part of the complication, too. | seeker: His kids actually asked if they could come live with me while he and his (ex?) figured their shit out."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.\n\nConversation History:\nseeker: I agree with you. It's one of my fears. | supporter: How do your children feel about this? And his? | seeker: MY children (6 and 9) have been living with him in their lives as a male figure who is growing into a father figure. He and I have been together for fifteen months, and part-time living together for six. | seeker: This isn't a new relationship. That's part of the complication, too. | seeker: His kids actually asked if they could come live with me while he and his (ex?) figured their shit out.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about the fact that your children have grown to trust and rely on him as a father figure, and now you're faced with the possibility of him not being a part of your lives in the same way, and what does that mean for your decision about whether to stay in the relationship?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:45.733674",
+      "processing_time_seconds": 16.78,
+      "success": true
+    }
+  },
+  {
+    "id": 27,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",
+      "context": "seeker: I would all but guarantee it. | supporter: It just worries me that he might treat you the same way if you were ever in the same position | seeker: Here's the other kicker, though... | seeker: She knows about me. | seeker: (I know. You're right. I thought that as well)"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.\n\nConversation History:\nseeker: I would all but guarantee it. | supporter: It just worries me that he might treat you the same way if you were ever in the same position | seeker: Here's the other kicker, though... | seeker: She knows about me. | seeker: (I know. You're right. I thought that as well)\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about the fact that his entire life was a lie, and what does it mean to you that the future you thought you were building together may not be possible, now that you're faced with this new reality?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:34:47.608043",
+      "processing_time_seconds": 1.37,
+      "success": true
+    }
+  },
+  {
+    "id": 28,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "the uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nthe uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How have you been taking care of yourself and coping with the stress and uncertainty of the pandemic, particularly with the added pressure of job searching and not seeing the results you had hoped for?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:03.619566",
+      "processing_time_seconds": 15.51,
+      "success": true
+    }
+  },
+  {
+    "id": 29,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "the uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight",
+      "context": "supporter: Hi there, how are you doing? | seeker: could be better"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nthe uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight\n\nConversation History:\nsupporter: Hi there, how are you doing? | seeker: could be better\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like things have been really tough for you lately. I can sense a lot of uncertainty and frustration in your response. Can you tell me more about what's been on your mind and in your heart when you say you \"could be better\" - what are some of the things that are weighing on you the most right now?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:06.451461",
+      "processing_time_seconds": 2.33,
+      "success": true
+    }
+  },
+  {
+    "id": 30,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "the uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight",
+      "context": "supporter: So you're unemployed? I am sorry to hear that. Are you prepared to take jobs that are below your usual level just to get by for a while? | seeker: have tried that but don't even get an interview | supporter: It's a very difficult time to be out of work, I know. I hope that there is something out there for you. Have you tried employment agencies? | seeker: yes, I do not qualify for unemployment because I have savings above the min threshold and I also have rental property, which is currently loss making and I can't sell it because it's 30% below market value | supporter: Well, on the plus side at least you do have savings .. hopefully this can give you some security for a while"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nthe uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight\n\nConversation History:\nsupporter: So you're unemployed? I am sorry to hear that. Are you prepared to take jobs that are below your usual level just to get by for a while? | seeker: have tried that but don't even get an interview | supporter: It's a very difficult time to be out of work, I know. I hope that there is something out there for you. Have you tried employment agencies? | seeker: yes, I do not qualify for unemployment because I have savings above the min threshold and I also have rental property, which is currently loss making and I can't sell it because it's 30% below market value | supporter: Well, on the plus side at least you do have savings .. hopefully this can give you some security for a while\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you coping with the emotional toll of this prolonged period of uncertainty and rejection, and what are some things that you're doing to take care of yourself during this challenging time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:16.178074",
+      "processing_time_seconds": 9.22,
+      "success": true
+    }
+  },
+  {
+    "id": 31,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am looking for more online jobs. but it is hard to find.",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am looking for more online jobs. but it is hard to find.\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been the most frustrating or overwhelming part of your job search experience so far, and how have you been taking care of yourself throughout this process?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:17.670940",
+      "processing_time_seconds": 0.99,
+      "success": true
+    }
+  },
+  {
+    "id": 32,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am looking for more online jobs. but it is hard to find.",
+      "context": "supporter: Hello, how are you feeling at the moment? | seeker: hi! I am good. you?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am looking for more online jobs. but it is hard to find.\n\nConversation History:\nsupporter: Hello, how are you feeling at the moment? | seeker: hi! I am good. you?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling fairly positive at the moment, which is great. However, you've mentioned looking for more online jobs and finding it challenging. Can you tell me more about what's been the most frustrating part of your job search so far?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:35.036271",
+      "processing_time_seconds": 16.86,
+      "success": true
+    }
+  },
+  {
+    "id": 33,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am looking for more online jobs. but it is hard to find.",
+      "context": "supporter: I have had to use foodbanks once or twice this year and I did feel a bit bad about it but everyone there was very kind and no-one judged us. | seeker: If i lose my main job I will use it | supporter: There is nothing to be ashamed of in doing so and when you get to a better position you can give back to them. | seeker: sorry about that, but that's good, people help each other | seeker: Absolutely! Volunteering is a great spirit."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am looking for more online jobs. but it is hard to find.\n\nConversation History:\nsupporter: I have had to use foodbanks once or twice this year and I did feel a bit bad about it but everyone there was very kind and no-one judged us. | seeker: If i lose my main job I will use it | supporter: There is nothing to be ashamed of in doing so and when you get to a better position you can give back to them. | seeker: sorry about that, but that's good, people help each other | seeker: Absolutely! Volunteering is a great spirit.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're facing a challenging time with your job situation and are exploring online opportunities. I can sense the uncertainty and concern that comes with it. What are some of the emotions that come up for you when you think about using resources like foodbanks or struggling to find a new job, and how do you think you would cope if you were to lose your main job?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:37.575539",
+      "processing_time_seconds": 2.03,
+      "success": true
+    }
+  },
+  {
+    "id": 34,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "General depression made worse by the severity of the pandemic.",
+      "context": "seeker: Hey there | seeker: How are you?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nGeneral depression made worse by the severity of the pandemic.\n\nConversation History:\nseeker: Hey there | seeker: How are you?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're reaching out for support, and I'm here to listen. Before we dive in, I want to acknowledge that it takes a lot of courage to seek help, especially during these challenging times. \n\nConsidering the pandemic has been affecting many people's mental health, I'm wondering: How have you been taking care of yourself and coping with the stress of the pandemic so far?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:46.389946",
+      "processing_time_seconds": 8.31,
+      "success": true
+    }
+  },
+  {
+    "id": 35,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "General depression made worse by the severity of the pandemic.",
+      "context": "seeker: Hey there | seeker: How are you? | supporter: I AM FINE | supporter: HOW IS YOUR SIDE ? | seeker: I am ok, I'm having a hard time dealing with the pandemic though."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nGeneral depression made worse by the severity of the pandemic.\n\nConversation History:\nseeker: Hey there | seeker: How are you? | supporter: I AM FINE | supporter: HOW IS YOUR SIDE ? | seeker: I am ok, I'm having a hard time dealing with the pandemic though.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the pandemic has been really tough on you. Can you tell me more about what's been the most challenging part for you - is it the isolation, the uncertainty, or something else that's contributing to your feelings of depression?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:35:48.127003",
+      "processing_time_seconds": 1.23,
+      "success": true
+    }
+  },
+  {
+    "id": 36,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "They are always demotivate my economic status. It hurts me a lot",
+      "context": "seeker: I need some tips to overcome from that problem"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nThey are always demotivate my economic status. It hurts me a lot\n\nConversation History:\nseeker: I need some tips to overcome from that problem\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Can you help me understand what goes through your mind and how you feel about yourself when you're reminded of your economic status, and how do you think it affects your daily life and motivations?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:02.761559",
+      "processing_time_seconds": 14.13,
+      "success": true
+    }
+  },
+  {
+    "id": 37,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "They are always demotivate my economic status. It hurts me a lot",
+      "context": "seeker: I need some tips to overcome from that problem | supporter: Hey. How can I help? | seeker: Give me some tips to get succeed in my life"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nThey are always demotivate my economic status. It hurts me a lot\n\nConversation History:\nseeker: I need some tips to overcome from that problem | supporter: Hey. How can I help? | seeker: Give me some tips to get succeed in my life\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Can you help me understand what specifically happens when someone demotivates you about your economic status, and how does that make you feel emotionally?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:04.279409",
+      "processing_time_seconds": 1.01,
+      "success": true
+    }
+  },
+  {
+    "id": 38,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "They are always demotivate my economic status. It hurts me a lot",
+      "context": "seeker: Give me some tips to get succeed in my life | supporter: Okay. Well lets start with exactly what the problem is. What kind of tips do you need? | seeker: I was totally upset due to my financial career | supporter: Okay I understand. Tell me a little about that. | seeker: I had a lot of debts"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nThey are always demotivate my economic status. It hurts me a lot\n\nConversation History:\nseeker: Give me some tips to get succeed in my life | supporter: Okay. Well lets start with exactly what the problem is. What kind of tips do you need? | seeker: I was totally upset due to my financial career | supporter: Okay I understand. Tell me a little about that. | seeker: I had a lot of debts\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How do you think your debts and current financial situation are affecting your self-esteem and overall sense of well-being, and what emotions arise when you think about your economic status?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:17.991354",
+      "processing_time_seconds": 13.19,
+      "success": true
+    }
+  },
+  {
+    "id": 39,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "They are always demotivate my economic status. It hurts me a lot",
+      "context": "seeker: I had a lot of debts | supporter: That is unfortunate. How did you accumulate such debt? | seeker: Because of this covid situation | supporter: That's tough. It has personally affect me as well as my financial health as well. I know the frustration. | seeker: So please tell me some advice"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nThey are always demotivate my economic status. It hurts me a lot\n\nConversation History:\nseeker: I had a lot of debts | supporter: That is unfortunate. How did you accumulate such debt? | seeker: Because of this covid situation | supporter: That's tough. It has personally affect me as well as my financial health as well. I know the frustration. | seeker: So please tell me some advice\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the COVID situation has had a significant impact on your financial well-being, and it's understandable that you're feeling demotivated about your economic status. Before we explore ways to move forward, can you tell me more about what specifically hurts the most for you when you think about your current financial situation - is it the feeling of being overwhelmed, the worry about the future, or something else?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:20.727015",
+      "processing_time_seconds": 2.23,
+      "success": true
+    }
+  },
+  {
+    "id": 40,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "They are always demotivate my economic status. It hurts me a lot",
+      "context": "supporter: That is unfortunate. How did you accumulate such debt? | seeker: Because of this covid situation | supporter: That's tough. It has personally affect me as well as my financial health as well. I know the frustration. | seeker: So please tell me some advice | supporter: Well to do so I need a little more information. Have you already taken any steps to help your situation?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nThey are always demotivate my economic status. It hurts me a lot\n\nConversation History:\nsupporter: That is unfortunate. How did you accumulate such debt? | seeker: Because of this covid situation | supporter: That's tough. It has personally affect me as well as my financial health as well. I know the frustration. | seeker: So please tell me some advice | supporter: Well to do so I need a little more information. Have you already taken any steps to help your situation?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself emotionally during this challenging time, and what do you think would give you a sense of hope or motivation to improve your economic situation?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:29.818686",
+      "processing_time_seconds": 8.58,
+      "success": true
+    }
+  },
+  {
+    "id": 41,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: Good afternoon | seeker: Hello."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: Good afternoon | seeker: Hello.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be a really tough and painful experience, especially during the holiday season. Can you tell me more about what's been going through your mind and heart since your girlfriend left, and how you've been taking care of yourself during this difficult time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:32.186032",
+      "processing_time_seconds": 1.86,
+      "success": true
+    }
+  },
+  {
+    "id": 42,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: Good afternoon | seeker: Hello. | supporter: How r u | seeker: Not doing too well."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: Good afternoon | seeker: Hello. | supporter: How r u | seeker: Not doing too well.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be really tough, especially with the holidays being a time when many people come together with loved ones. Can you tell me more about what's been going through your mind since your girlfriend left, and how you've been taking care of yourself during this difficult time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:48.841102",
+      "processing_time_seconds": 16.15,
+      "success": true
+    }
+  },
+  {
+    "id": 43,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: How r u | seeker: Not doing too well. | supporter: What is your day like | seeker: Bleak and depressing. How is yours going? | supporter: What seems to be the issue"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: How r u | seeker: Not doing too well. | supporter: What is your day like | seeker: Bleak and depressing. How is yours going? | supporter: What seems to be the issue\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the holiday season, which is often a time of joy and connection for many people, has been particularly tough for you this year. Can you help me understand what happened with your girlfriend that led to her leaving, and how are you taking care of yourself during this difficult time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:36:51.806164",
+      "processing_time_seconds": 2.46,
+      "success": true
+    }
+  },
+  {
+    "id": 44,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: What is your day like | seeker: Bleak and depressing. How is yours going? | supporter: What seems to be the issue | supporter: What is making you feel this way | seeker: My girlfriend left me and I am all alone."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: What is your day like | seeker: Bleak and depressing. How is yours going? | supporter: What seems to be the issue | supporter: What is making you feel this way | seeker: My girlfriend left me and I am all alone.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself during this difficult time, and what are some of the emotions that come up for you when you think about your girlfriend leaving you, especially with the holidays being a time that's often associated with togetherness and celebration?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:02.505542",
+      "processing_time_seconds": 10.2,
+      "success": true
+    }
+  },
+  {
+    "id": 45,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: I can assume that the relationship was for awhile | seeker: We were together for six and a half years. | supporter: Breakups are hard especially when you have been together for awhile | seeker: Yes, and I think I will miss the pegging the most. No one can do it better or harder than her. | supporter: That was along time. 6 years. WAs the breakup sudden or had it gradually happened over time"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: I can assume that the relationship was for awhile | seeker: We were together for six and a half years. | supporter: Breakups are hard especially when you have been together for awhile | seeker: Yes, and I think I will miss the pegging the most. No one can do it better or harder than her. | supporter: That was along time. 6 years. WAs the breakup sudden or had it gradually happened over time\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the breakup has been really tough for you, especially with it happening right before Christmas. You mentioned that you're going to miss the physical aspect of your relationship, but I'm also wondering, what are some of the emotional feelings that are coming up for you now that you're apart from your girlfriend, and how are you taking care of yourself during this difficult time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:06.495579",
+      "processing_time_seconds": 3.48,
+      "success": true
+    }
+  },
+  {
+    "id": 46,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: That was along time. 6 years. WAs the breakup sudden or had it gradually happened over time | supporter: What may I ask is pegging | seeker: It was probably gradual, but it seemed like all of a sudden at the end. | supporter: had there been any disagreements | seeker: Pegging is when she puts on a strap on and pleasures me from behind. It is definitely a niche fetish."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: That was along time. 6 years. WAs the breakup sudden or had it gradually happened over time | supporter: What may I ask is pegging | seeker: It was probably gradual, but it seemed like all of a sudden at the end. | supporter: had there been any disagreements | seeker: Pegging is when she puts on a strap on and pleasures me from behind. It is definitely a niche fetish.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the breakup was a really difficult experience for you, especially with it happening right before Christmas. I can sense that you're still processing your emotions about the end of the relationship. \n\nCan you help me understand what's been the most challenging part for you since the breakup - is it the loss of the relationship itself, the timing of it, or something specific that's been weighing on your mind?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:15.039305",
+      "processing_time_seconds": 8.04,
+      "success": true
+    }
+  },
+  {
+    "id": 47,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "seeker: Pegging is when she puts on a strap on and pleasures me from behind. It is definitely a niche fetish. | supporter: R u a female | seeker: The biggest disagreement was that she wanted to start pegging other guys, and I told her no way, we did not agree to that arrangement. | seeker: No I am a male. But please don't judge me, I am very fragile right now. | supporter: i am not judging you in anyway. Helps me better understand"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nseeker: Pegging is when she puts on a strap on and pleasures me from behind. It is definitely a niche fetish. | supporter: R u a female | seeker: The biggest disagreement was that she wanted to start pegging other guys, and I told her no way, we did not agree to that arrangement. | seeker: No I am a male. But please don't judge me, I am very fragile right now. | supporter: i am not judging you in anyway. Helps me better understand\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about the fact that your disagreement over pegging and boundaries in your relationship ultimately led to your girlfriend leaving you, especially during a time of year that's often associated with togetherness and celebration, like Christmas?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:16.517850",
+      "processing_time_seconds": 0.97,
+      "success": true
+    }
+  },
+  {
+    "id": 48,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I really blew it with my girlfriend, so she left me right before Christmas.",
+      "context": "supporter: WAs there another person involved with the relationship or just you both | seeker: I really miss her a lot, I would let her peg those other guys if she wanted to, I just need to get her back in my life. I told her I would give her as many rimjobs that she requested. | seeker: There were other women and men that she would bring home for us to have threesomes with. It made me feel like she was in power. | supporter: sounds like you both had a solid relationship | seeker: Very solid like a rock. I feel like you are mocking me now. Are you a man or woman?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI really blew it with my girlfriend, so she left me right before Christmas.\n\nConversation History:\nsupporter: WAs there another person involved with the relationship or just you both | seeker: I really miss her a lot, I would let her peg those other guys if she wanted to, I just need to get her back in my life. I told her I would give her as many rimjobs that she requested. | seeker: There were other women and men that she would bring home for us to have threesomes with. It made me feel like she was in power. | supporter: sounds like you both had a solid relationship | seeker: Very solid like a rock. I feel like you are mocking me now. Are you a man or woman?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling a deep sense of loss and longing for your girlfriend, and you're willing to do whatever it takes to get her back. I want to understand more about what's driving your feelings. Can you help me understand what you mean by \"she was in power\" in your relationship, and how that dynamic affected you and your emotions towards her?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:33.320751",
+      "processing_time_seconds": 16.3,
+      "success": true
+    }
+  },
+  {
+    "id": 49,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "MY life has been completely upheaved by a cheating spouse who abandoned me and our children",
+      "context": "supporter: hi | seeker: Hey | seeker: You there?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nMY life has been completely upheaved by a cheating spouse who abandoned me and our children\n\nConversation History:\nsupporter: hi | seeker: Hey | seeker: You there?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "I'm so glad you're here and willing to talk. It takes a lot of courage to reach out, especially during a difficult time. Can you tell me what's been the most overwhelming or painful part of this experience for you, and how have you been taking care of yourself since everything happened?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:35.684328",
+      "processing_time_seconds": 1.86,
+      "success": true
+    }
+  },
+  {
+    "id": 50,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been going through your mind lately as you've been searching for a job, and how have you been taking care of yourself during this potentially stressful time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:51.309674",
+      "processing_time_seconds": 15.12,
+      "success": true
+    }
+  },
+  {
+    "id": 51,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "supporter: What canI do to help? | seeker: Hi! I am trying to find a new job for long time. There is no success in it | supporter: I feel bad for you. | supporter: There are many openings for Uber and Uber Eats."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nsupporter: What canI do to help? | seeker: Hi! I am trying to find a new job for long time. There is no success in it | supporter: I feel bad for you. | supporter: There are many openings for Uber and Uber Eats.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about the job search process so far, and what do you think might be getting in the way of finding a job that's a good fit for you?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:37:52.399122",
+      "processing_time_seconds": 0.58,
+      "success": true
+    }
+  },
+  {
+    "id": 52,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "seeker: Hi! I am trying to find a new job for long time. There is no success in it | supporter: I feel bad for you. | supporter: There are many openings for Uber and Uber Eats. | supporter: What were you doing before you were looking for a job? Were you in college? | seeker: I am not a good driver"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nseeker: Hi! I am trying to find a new job for long time. There is no success in it | supporter: I feel bad for you. | supporter: There are many openings for Uber and Uber Eats. | supporter: What were you doing before you were looking for a job? Were you in college? | seeker: I am not a good driver\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the Uber and Uber Eats suggestion might not be a good fit for you, given your concerns about driving. Can you tell me more about what you're looking for in a job, and what kinds of roles or industries you're interested in exploring that might be a better match for your skills and preferences?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:10.791761",
+      "processing_time_seconds": 17.89,
+      "success": true
+    }
+  },
+  {
+    "id": 53,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "seeker: I am not a good driver | supporter: What do you find are your top skill sets? | seeker: I was working in an IT company as a program analyst | supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nseeker: I am not a good driver | supporter: What do you find are your top skill sets? | seeker: I was working in an IT company as a program analyst | supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been the most frustrating or discouraging part of your job search experience so far, and how have you been taking care of yourself during this challenging time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:13.216084",
+      "processing_time_seconds": 1.92,
+      "success": true
+    }
+  },
+  {
+    "id": 54,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "supporter: What do you find are your top skill sets? | seeker: I was working in an IT company as a program analyst | supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one | supporter: How so? What is the specific difficulty? Is it with your resume?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nsupporter: What do you find are your top skill sets? | seeker: I was working in an IT company as a program analyst | supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one | supporter: How so? What is the specific difficulty? Is it with your resume?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What emotions come up for you when you think about not being able to find a job in the IT field despite having relevant experience as a program analyst, and how are you taking care of yourself during this challenging time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:19.376914",
+      "processing_time_seconds": 5.65,
+      "success": true
+    }
+  },
+  {
+    "id": 55,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one | supporter: How so? What is the specific difficulty? Is it with your resume? | supporter: Are you feeling nervous? Anxious? | seeker: The reason is recession or might be COVID."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nsupporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one | supporter: How so? What is the specific difficulty? Is it with your resume? | supporter: Are you feeling nervous? Anxious? | seeker: The reason is recession or might be COVID.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself during this challenging and uncertain time, and what kinds of things have you found help you cope with the stress and frustration of job hunting amidst the recession and COVID pandemic?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:29.512976",
+      "processing_time_seconds": 9.63,
+      "success": true
+    }
+  },
+  {
+    "id": 56,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "supporter: How so? What is the specific difficulty? Is it with your resume? | supporter: Are you feeling nervous? Anxious? | seeker: The reason is recession or might be COVID. | supporter: Any other questions or concerns that you may have for me? | seeker: I am stressed"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nsupporter: How so? What is the specific difficulty? Is it with your resume? | supporter: Are you feeling nervous? Anxious? | seeker: The reason is recession or might be COVID. | supporter: Any other questions or concerns that you may have for me? | seeker: I am stressed\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself during this stressful time, and what kinds of things have you found help you cope with the uncertainty of finding a job amidst the recession and COVID challenges?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:31.052672",
+      "processing_time_seconds": 1.03,
+      "success": true
+    }
+  },
+  {
+    "id": 57,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "seeker: I am stressed | supporter: Well, how do you adapt to the work issue? Do you like dogs? There are opportunities for dog walkers. | supporter: I made good money in the past walking my neighbors and friends dogs. | seeker: I don't have any pet so no experience with it | supporter: When I get stressed, I try to do vigorous exercises with pushups, chin ups, sit ups or walking fast."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nseeker: I am stressed | supporter: Well, how do you adapt to the work issue? Do you like dogs? There are opportunities for dog walkers. | supporter: I made good money in the past walking my neighbors and friends dogs. | seeker: I don't have any pet so no experience with it | supporter: When I get stressed, I try to do vigorous exercises with pushups, chin ups, sit ups or walking fast.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling really overwhelmed with your job search right now. I want to make sure I understand what's going on for you. Can you tell me more about what's been the most stressful part of looking for a job for you, and how you've been taking care of yourself during this time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:46.699539",
+      "processing_time_seconds": 15.14,
+      "success": true
+    }
+  },
+  {
+    "id": 58,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Trying to find a job",
+      "context": "supporter: Losing a job? It never happened for you before? | seeker: There are recreational parks, and trails near by | supporter: I would join a support group for those people who need support and want to change careers. | supporter: There are support groups online to help with job loss who can advise you on where to use your interests and skills to have a more fulfilling life. | seeker: I love my career just getting bit demotivated"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nTrying to find a job\n\nConversation History:\nsupporter: Losing a job? It never happened for you before? | seeker: There are recreational parks, and trails near by | supporter: I would join a support group for those people who need support and want to change careers. | supporter: There are support groups online to help with job loss who can advise you on where to use your interests and skills to have a more fulfilling life. | seeker: I love my career just getting bit demotivated\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What is it about your career that you love, and how do you think you can reconnect with that passion and motivation to help you move forward in your job search?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:49.280739",
+      "processing_time_seconds": 2.08,
+      "success": true
+    }
+  },
+  {
+    "id": 59,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not sure how to explain that I want out of marriage",
+      "context": "seeker: Hi"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot sure how to explain that I want out of marriage\n\nConversation History:\nseeker: Hi\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been going on that's making you feel like you want to end your marriage, and how have you been feeling about this situation lately?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:38:56.343510",
+      "processing_time_seconds": 6.56,
+      "success": true
+    }
+  },
+  {
+    "id": 60,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not sure how to explain that I want out of marriage",
+      "context": "seeker: I do not know how to tell my husband that I am lonely and I want out of the marriage | supporter: Oh, that sure is a heavy subject and a heavy thing to be on your mind. | seeker: He is not one you can talk to he usually just brushes things off | supporter: So you have tried to discuss your loneliness with your husband before? | seeker: Yes he tells me it’s just in my head and I could just go out with him, but he drinks then to much so I do not like going out with him"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot sure how to explain that I want out of marriage\n\nConversation History:\nseeker: I do not know how to tell my husband that I am lonely and I want out of the marriage | supporter: Oh, that sure is a heavy subject and a heavy thing to be on your mind. | seeker: He is not one you can talk to he usually just brushes things off | supporter: So you have tried to discuss your loneliness with your husband before? | seeker: Yes he tells me it’s just in my head and I could just go out with him, but he drinks then to much so I do not like going out with him\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How do you think your husband's response to your feelings, telling you it's just in your head, has affected your sense of being heard and understood in the marriage, and what emotions does that bring up for you?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:10.617817",
+      "processing_time_seconds": 13.76,
+      "success": true
+    }
+  },
+  {
+    "id": 61,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not sure how to explain that I want out of marriage",
+      "context": "supporter: So you have tried to discuss your loneliness with your husband before? | seeker: Yes he tells me it’s just in my head and I could just go out with him, but he drinks then to much so I do not like going out with him | supporter: I am sure that is frustrating! Does he drink at home as well or just when you go out? | seeker: Just when he goes out I do not go with him I do not drink and drive | seeker: And he hangs with some obnoxious people"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot sure how to explain that I want out of marriage\n\nConversation History:\nsupporter: So you have tried to discuss your loneliness with your husband before? | seeker: Yes he tells me it’s just in my head and I could just go out with him, but he drinks then to much so I do not like going out with him | supporter: I am sure that is frustrating! Does he drink at home as well or just when you go out? | seeker: Just when he goes out I do not go with him I do not drink and drive | seeker: And he hangs with some obnoxious people\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How do you think your husband's behavior, particularly his drinking and choice of social circle, has affected your feelings about the marriage and your desire to potentially end it?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:27.010978",
+      "processing_time_seconds": 15.89,
+      "success": true
+    }
+  },
+  {
+    "id": 62,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about being alone this weekend, now that your friends have gone away on holiday?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:35.433856",
+      "processing_time_seconds": 7.92,
+      "success": true
+    }
+  },
+  {
+    "id": 63,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.",
+      "context": "supporter: Hello how are you? | seeker: I'm, okay, thanks, and you? I'm feeling a bit down because I'm alone for the holidays."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.\n\nConversation History:\nsupporter: Hello how are you? | seeker: I'm, okay, thanks, and you? I'm feeling a bit down because I'm alone for the holidays.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be really tough, feeling alone during the holidays. Can you tell me more about what's been the hardest part for you about your friends being away, and how you've been taking care of yourself while feeling down?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:38.857001",
+      "processing_time_seconds": 2.92,
+      "success": true
+    }
+  },
+  {
+    "id": 64,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.",
+      "context": "supporter: Hello how are you? | seeker: I'm, okay, thanks, and you? I'm feeling a bit down because I'm alone for the holidays. | supporter: Well that's no good, does your family live far away? | seeker: Yes, my family is scattered all over the country, like Seattle, Georgia, PA. I'm sure I'm not the only one with no plans this weekend, though. | supporter: True but I can understand that, it is hard being alone at the holidays."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.\n\nConversation History:\nsupporter: Hello how are you? | seeker: I'm, okay, thanks, and you? I'm feeling a bit down because I'm alone for the holidays. | supporter: Well that's no good, does your family live far away? | seeker: Yes, my family is scattered all over the country, like Seattle, Georgia, PA. I'm sure I'm not the only one with no plans this weekend, though. | supporter: True but I can understand that, it is hard being alone at the holidays.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been the most challenging part for you about being alone this weekend, is it the lack of social connection, the feeling of being left out, or something else that's been on your mind?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:48.370561",
+      "processing_time_seconds": 9.01,
+      "success": true
+    }
+  },
+  {
+    "id": 65,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.",
+      "context": "supporter: I have never understood how those work..I find it amazing someone can type out whole words or sentences with one word | seeker: Yeah, it's pretty cool. For example, if I hit DRAT in one stroke, then \"Did there come a time\" will appear in English on my machine's LCD screen. | supporter: Wow that is crazy, I don't understand how that works, is it preprogrammed or does it go by how the word sounds? | seeker: Each stenographer has their own \"Personal Dictionary\" which is a list of words in English along with how you in particular write out those words or phrases in steno. This dictionary is present within the actual steno machine after you transfer it from your laptop to the machine via cable or wifi. Thus your machine then knows how you write out words in particular and how to translate those words from steno to English - each stenographer writes a little differently. | supporter: OK that makes sense, so you basically program it as the user. I take it your stenography machine becomes pretty close to you lol"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.\n\nConversation History:\nsupporter: I have never understood how those work..I find it amazing someone can type out whole words or sentences with one word | seeker: Yeah, it's pretty cool. For example, if I hit DRAT in one stroke, then \"Did there come a time\" will appear in English on my machine's LCD screen. | supporter: Wow that is crazy, I don't understand how that works, is it preprogrammed or does it go by how the word sounds? | seeker: Each stenographer has their own \"Personal Dictionary\" which is a list of words in English along with how you in particular write out those words or phrases in steno. This dictionary is present within the actual steno machine after you transfer it from your laptop to the machine via cable or wifi. Thus your machine then knows how you write out words in particular and how to translate those words from steno to English - each stenographer writes a little differently. | supporter: OK that makes sense, so you basically program it as the user. I take it your stenography machine becomes pretty close to you lol\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you have a strong interest in stenography, but I also sense that you might be feeling a bit lonely with your friends away for the holidays. How are you feeling about spending this weekend alone, and what are some things that you think might help you cope with the emptiness or isolation you might be experiencing?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:52.692017",
+      "processing_time_seconds": 3.82,
+      "success": true
+    }
+  },
+  {
+    "id": 66,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.",
+      "context": "supporter: Have a good rest of this year and don't forget to make your New Year's resolution! | seeker: I will do that - you too. Thanks, again... | supporter: Not really, stayed home lol... Have a good one! | seeker: You too... bye now... | supporter: Good day!"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.\n\nConversation History:\nsupporter: Have a good rest of this year and don't forget to make your New Year's resolution! | seeker: I will do that - you too. Thanks, again... | supporter: Not really, stayed home lol... Have a good one! | seeker: You too... bye now... | supporter: Good day!\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling about being left alone this weekend with your friends away on holiday, and what do you think you might be missing most about their presence in your life right now?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:39:56.903831",
+      "processing_time_seconds": 3.71,
+      "success": true
+    }
+  },
+  {
+    "id": 67,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "friends trying to let me down",
+      "context": "seeker: Hi | supporter: hello | seeker: Hope you are doing well"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nfriends trying to let me down\n\nConversation History:\nseeker: Hi | supporter: hello | seeker: Hope you are doing well\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're reaching out because something's on your mind. What's been going on that led you to want to talk today?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:01.340015",
+      "processing_time_seconds": 3.93,
+      "success": true
+    }
+  },
+  {
+    "id": 68,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "friends trying to let me down",
+      "context": "supporter: if i get you clearly, you mean your friend disappointed you. how? | seeker: Yes. There were a argument between two of my friend while trying to resolve the issue they all started targeting me. | supporter: i have a hard time with my friends too sometimes | seeker: Then what you do at that time | supporter: i used to give them time to cool off, when they are back to their senses, they will contact me and apologize"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nfriends trying to let me down\n\nConversation History:\nsupporter: if i get you clearly, you mean your friend disappointed you. how? | seeker: Yes. There were a argument between two of my friend while trying to resolve the issue they all started targeting me. | supporter: i have a hard time with my friends too sometimes | seeker: Then what you do at that time | supporter: i used to give them time to cool off, when they are back to their senses, they will contact me and apologize\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How did it feel for you when your friends started targeting you during the argument, and did that experience bring up any emotions or memories that are still lingering for you now?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:18.217185",
+      "processing_time_seconds": 16.37,
+      "success": true
+    }
+  },
+  {
+    "id": 69,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job due to Covid 19 and I can't find a new one. I'm scared!",
+      "context": "seeker: I recently lost my job due to Covid 19 and I'm scared."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job due to Covid 19 and I can't find a new one. I'm scared!\n\nConversation History:\nseeker: I recently lost my job due to Covid 19 and I'm scared.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be a really frightening and uncertain experience. Can you tell me more about what's going through your mind when you say you're scared - what are some of the specific worries or concerns that are coming up for you about your situation?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:21.532474",
+      "processing_time_seconds": 2.81,
+      "success": true
+    }
+  },
+  {
+    "id": 70,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job due to Covid 19 and I can't find a new one. I'm scared!",
+      "context": "supporter: I feel bad for you, but there are options. | seeker: What do you recommend? | supporter: I suggest working on your resume and hitting job boards. | seeker: Oh that's a great idea. What job boards do you recommend? | seeker: I've never used one before."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job due to Covid 19 and I can't find a new one. I'm scared!\n\nConversation History:\nsupporter: I feel bad for you, but there are options. | seeker: What do you recommend? | supporter: I suggest working on your resume and hitting job boards. | seeker: Oh that's a great idea. What job boards do you recommend? | seeker: I've never used one before.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been the most overwhelming or scary part for you about navigating this job search process, especially since you're new to using job boards and have been out of work due to circumstances beyond your control?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:30.965630",
+      "processing_time_seconds": 8.93,
+      "success": true
+    }
+  },
+  {
+    "id": 71,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job due to Covid 19 and I can't find a new one. I'm scared!",
+      "context": "seeker: Oh that's a great idea. What job boards do you recommend? | seeker: I've never used one before. | supporter: Was it just you that lost the job or a whole unit/department? | seeker: It was jus tme | supporter: Google your past job title title and add openings."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job due to Covid 19 and I can't find a new one. I'm scared!\n\nConversation History:\nseeker: Oh that's a great idea. What job boards do you recommend? | seeker: I've never used one before. | supporter: Was it just you that lost the job or a whole unit/department? | seeker: It was jus tme | supporter: Google your past job title title and add openings.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself emotionally during this challenging time, and what kind of support system do you have in place to help you cope with the stress and uncertainty of losing your job and struggling to find a new one?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:38.315509",
+      "processing_time_seconds": 6.84,
+      "success": true
+    }
+  },
+  {
+    "id": 72,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job due to Covid 19 and I can't find a new one. I'm scared!",
+      "context": "seeker: It was jus tme | supporter: Google your past job title title and add openings. | supporter: Was it a computer job or a job where you have to be working in-person? | seeker: I worked in a restaurant as a server. I don't have any other formal job training, I'm not sure what else I can do. | supporter: May I suggest Uber, Lyft, Door Dash or Grub Hub or Uber Eats?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job due to Covid 19 and I can't find a new one. I'm scared!\n\nConversation History:\nseeker: It was jus tme | supporter: Google your past job title title and add openings. | supporter: Was it a computer job or a job where you have to be working in-person? | seeker: I worked in a restaurant as a server. I don't have any other formal job training, I'm not sure what else I can do. | supporter: May I suggest Uber, Lyft, Door Dash or Grub Hub or Uber Eats?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you coping with the uncertainty and fear of not being able to find a new job, and what are some of the emotions that come up for you when you think about exploring new career options or industries, such as the ones mentioned like Uber, Lyft, or food delivery services?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:39.897220",
+      "processing_time_seconds": 1.08,
+      "success": true
+    }
+  },
+  {
+    "id": 73,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job due to Covid 19 and I can't find a new one. I'm scared!",
+      "context": "supporter: I read that all you need is to wear a mask as you drive around to put up and deliver food to the masses. | supporter: Plus, gas prices are relatively cheap at 2.25 a gallon, nationally. | seeker: yeah definitely! Contact free probably! WOw that is great advice. | seeker: Ok I will check into food delivery! | supporter: You can also send out flyers to do dog walking in the neighborhood."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job due to Covid 19 and I can't find a new one. I'm scared!\n\nConversation History:\nsupporter: I read that all you need is to wear a mask as you drive around to put up and deliver food to the masses. | supporter: Plus, gas prices are relatively cheap at 2.25 a gallon, nationally. | seeker: yeah definitely! Contact free probably! WOw that is great advice. | seeker: Ok I will check into food delivery! | supporter: You can also send out flyers to do dog walking in the neighborhood.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling overwhelmed and scared about your current situation, and you've been exploring some potential job opportunities. How are you feeling about the idea of starting something new, like food delivery or dog walking, and what do you think might be holding you back or giving you hope as you consider these options?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:49.583526",
+      "processing_time_seconds": 9.18,
+      "success": true
+    }
+  },
+  {
+    "id": 74,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job due to Covid 19 and I can't find a new one. I'm scared!",
+      "context": "seeker: yeah definitely! Contact free probably! WOw that is great advice. | seeker: Ok I will check into food delivery! | supporter: You can also send out flyers to do dog walking in the neighborhood. | supporter: Do you like doggies? | seeker: Unfortunately I am allergic to dogs"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job due to Covid 19 and I can't find a new one. I'm scared!\n\nConversation History:\nseeker: yeah definitely! Contact free probably! WOw that is great advice. | seeker: Ok I will check into food delivery! | supporter: You can also send out flyers to do dog walking in the neighborhood. | supporter: Do you like doggies? | seeker: Unfortunately I am allergic to dogs\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling really overwhelmed and scared about your job situation, and we've been exploring some potential ways to earn income, but they haven't all been a good fit for you. How are you taking care of yourself emotionally during this challenging time, and what kind of support system do you have in place to help you cope with the stress and uncertainty of being unemployed?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:40:52.645287",
+      "processing_time_seconds": 2.56,
+      "success": true
+    }
+  },
+  {
+    "id": 75,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Fear of layoff from job",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nFear of layoff from job\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Counseling Question: \"Can you tell me more about what's been going on at work that's making you feel like a layoff might be a possibility, and how are you feeling about the uncertainty of your job situation right now?\"",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:06.627607",
+      "processing_time_seconds": 13.48,
+      "success": true
+    }
+  },
+  {
+    "id": 76,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Fear of layoff from job",
+      "context": "supporter: hi | seeker: Hello"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nFear of layoff from job\n\nConversation History:\nsupporter: hi | seeker: Hello\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What's been going through your mind since you started worrying about the possibility of a layoff, and how have you been taking care of yourself during this uncertain time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:14.122363",
+      "processing_time_seconds": 6.99,
+      "success": true
+    }
+  },
+  {
+    "id": 77,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am depressed staying at home due to COVID.",
+      "context": "seeker: Hi | supporter: hello there, how are you | seeker: Doing well. How are you?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am depressed staying at home due to COVID.\n\nConversation History:\nseeker: Hi | supporter: hello there, how are you | seeker: Doing well. How are you?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're trying to put on a brave face, but I sense that there might be more to your story. Can you help me understand what you mean by \"doing well\" - is there a part of you that's struggling, perhaps with the isolation of staying at home due to COVID, and how are you really coping with that?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:20.118193",
+      "processing_time_seconds": 5.49,
+      "success": true
+    }
+  },
+  {
+    "id": 78,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am depressed staying at home due to COVID.",
+      "context": "seeker: Doing well. How are you? | supporter: Good, im ok thanks. What would like to discuss? | seeker: I am depressed staying home due to COVID. | supporter: Oh so sorry to hear. Would you feel a little bit happy when you think when it is over, next year probably? | seeker: Absolutely... can't wait until its over !!"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am depressed staying at home due to COVID.\n\nConversation History:\nseeker: Doing well. How are you? | supporter: Good, im ok thanks. What would like to discuss? | seeker: I am depressed staying home due to COVID. | supporter: Oh so sorry to hear. Would you feel a little bit happy when you think when it is over, next year probably? | seeker: Absolutely... can't wait until its over !!\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What do you think you'll need to feel safe and supported when you finally are able to leave your home and start reintegrating into your community after COVID is over, and how can you start preparing yourself for that transition now?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:27.779266",
+      "processing_time_seconds": 7.16,
+      "success": true
+    }
+  },
+  {
+    "id": 79,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Just can't shake my sadness",
+      "context": "seeker: Hi | supporter: Helo, how are you? | seeker: Can't seem to shake this overall sadness I feel."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nJust can't shake my sadness\n\nConversation History:\nseeker: Hi | supporter: Helo, how are you? | seeker: Can't seem to shake this overall sadness I feel.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Can you tell me more about what this sadness feels like for you, and when you first started noticing it?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:33.398815",
+      "processing_time_seconds": 5.09,
+      "success": true
+    }
+  },
+  {
+    "id": 80,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Just can't shake my sadness",
+      "context": "seeker: Can't seem to shake this overall sadness I feel. | supporter: Are you feeling sort of depressed? I am sorry | seeker: Yes I am | supporter: Would you feel happy if you think about after Covid, maybe next year? | seeker: I am hoping I will. I just have such a hopeless feeling."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nJust can't shake my sadness\n\nConversation History:\nseeker: Can't seem to shake this overall sadness I feel. | supporter: Are you feeling sort of depressed? I am sorry | seeker: Yes I am | supporter: Would you feel happy if you think about after Covid, maybe next year? | seeker: I am hoping I will. I just have such a hopeless feeling.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Can you help me understand what's contributing to this hopeless feeling you're experiencing right now, is there something specific that's making you feel like things won't get better or is it more of a general feeling that's been following you?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:38.500629",
+      "processing_time_seconds": 4.59,
+      "success": true
+    }
+  },
+  {
+    "id": 81,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Just can't shake my sadness",
+      "context": "seeker: Yes I am | supporter: Would you feel happy if you think about after Covid, maybe next year? | seeker: I am hoping I will. I just have such a hopeless feeling. | supporter: have you been sleeping enough? | seeker: Yes, probably too much."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nJust can't shake my sadness\n\nConversation History:\nseeker: Yes I am | supporter: Would you feel happy if you think about after Covid, maybe next year? | seeker: I am hoping I will. I just have such a hopeless feeling. | supporter: have you been sleeping enough? | seeker: Yes, probably too much.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Can you help me understand what's going through your mind when you're feeling hopeless, is there something specific that's contributing to this feeling, or does it feel more like a general sense of being overwhelmed?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:52.380346",
+      "processing_time_seconds": 13.38,
+      "success": true
+    }
+  },
+  {
+    "id": 82,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Just can't shake my sadness",
+      "context": "supporter: have you been sleeping enough? | seeker: Yes, probably too much. | supporter: Do you like morning or night? | seeker: Probably morning. | supporter: Me too. I like morning too. Air feels fresh, although it is little contaminated here. At night time, I feel a little bit anxiety more."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nJust can't shake my sadness\n\nConversation History:\nsupporter: have you been sleeping enough? | seeker: Yes, probably too much. | supporter: Do you like morning or night? | seeker: Probably morning. | supporter: Me too. I like morning too. Air feels fresh, although it is little contaminated here. At night time, I feel a little bit anxiety more.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're really struggling with feelings of sadness, and I want to understand more about what you're going through. Can you tell me, what do you think might be contributing to this sadness that you just can't seem to shake, and how are you taking care of yourself during this difficult time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:41:57.996946",
+      "processing_time_seconds": 5.11,
+      "success": true
+    }
+  },
+  {
+    "id": 83,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I had a huge fight with my girlfriend and she left me.  She accused me of neglecting her even though I needed to spend time with my family and spent as much time with her as I could.",
+      "context": "seeker: Hi I am feeling blue, things aren't going well at all"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI had a huge fight with my girlfriend and she left me.  She accused me of neglecting her even though I needed to spend time with my family and spent as much time with her as I could.\n\nConversation History:\nseeker: Hi I am feeling blue, things aren't going well at all\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're going through a really tough time right now. Can you tell me more about what's been going on and how you've been feeling since the fight with your girlfriend, especially when she said you were neglecting her - what was going through your mind when she said that?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:10.441638",
+      "processing_time_seconds": 11.94,
+      "success": true
+    }
+  },
+  {
+    "id": 84,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not being able to see family and friends due to Covid.",
+      "context": "seeker: Hello | supporter: Hi, how are you feeling today? | seeker: I am not feeling the best. I have been having some depression, because of not being able to see friends and family during this pandemic."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot being able to see family and friends due to Covid.\n\nConversation History:\nseeker: Hello | supporter: Hi, how are you feeling today? | seeker: I am not feeling the best. I have been having some depression, because of not being able to see friends and family during this pandemic.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be really tough and isolating. It sounds like the pandemic has been affecting you deeply, especially when it comes to feeling disconnected from your loved ones. Can you tell me more about what you miss the most about being able to see your friends and family, and how you've been coping with those feelings of loneliness?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:17.299563",
+      "processing_time_seconds": 6.35,
+      "success": true
+    }
+  },
+  {
+    "id": 85,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "Not being able to see family and friends due to Covid.",
+      "context": "seeker: Hello | supporter: Hi, how are you feeling today? | seeker: I am not feeling the best. I have been having some depression, because of not being able to see friends and family during this pandemic. | supporter: Oh, boy, do I know that feeling! How are you dealing with it? (if I may ask) | seeker: I try to message them as much as possible and call them on the phone but it is just not the same as actually getting to give the a hug and see them in person."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nNot being able to see family and friends due to Covid.\n\nConversation History:\nseeker: Hello | supporter: Hi, how are you feeling today? | seeker: I am not feeling the best. I have been having some depression, because of not being able to see friends and family during this pandemic. | supporter: Oh, boy, do I know that feeling! How are you dealing with it? (if I may ask) | seeker: I try to message them as much as possible and call them on the phone but it is just not the same as actually getting to give the a hug and see them in person.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What do you think is the most difficult part for you about not being able to physically hug or see your loved ones in person, is it the loss of emotional connection, the feeling of isolation, or something else that's been weighing on your mind?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:23.698026",
+      "processing_time_seconds": 5.89,
+      "success": true
+    }
+  },
+  {
+    "id": 86,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "My ex partner is harassing me and will not stop talking to my friends and family.",
+      "context": "seeker: Hello | supporter: Hi! How are you today? | seeker: I have been better"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nMy ex partner is harassing me and will not stop talking to my friends and family.\n\nConversation History:\nseeker: Hello | supporter: Hi! How are you today? | seeker: I have been better\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're going through a really tough time right now. Can you tell me more about what's been happening with your ex-partner and how their behavior is affecting you?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:28.745677",
+      "processing_time_seconds": 4.55,
+      "success": true
+    }
+  },
+  {
+    "id": 87,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "My ex partner is harassing me and will not stop talking to my friends and family.",
+      "context": "seeker: My ex partner and I broke up a long time ago because they cheated on me. Now they will not stop contacting my friends and family and posting about me on social media | supporter: That sounds difficult and stressful. What do you do when you see it happening? | seeker: I usually just document it and try to not go online for a while. It is hard to ignore | supporter: It sounds like you are avoiding things you enjoy because of their actions. I think documenting it is a good idea! Have you tried reporting them for harassing you? | seeker: I have tried but everyone just tells me there is nothing they can do because they don't think it is dangerous or criminal at this point"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nMy ex partner is harassing me and will not stop talking to my friends and family.\n\nConversation History:\nseeker: My ex partner and I broke up a long time ago because they cheated on me. Now they will not stop contacting my friends and family and posting about me on social media | supporter: That sounds difficult and stressful. What do you do when you see it happening? | seeker: I usually just document it and try to not go online for a while. It is hard to ignore | supporter: It sounds like you are avoiding things you enjoy because of their actions. I think documenting it is a good idea! Have you tried reporting them for harassing you? | seeker: I have tried but everyone just tells me there is nothing they can do because they don't think it is dangerous or criminal at this point\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself emotionally during this challenging time, and what kind of support system do you have in place to help you cope with the stress and feelings that come up when your ex-partner contacts your friends and family or posts about you online?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:37.149870",
+      "processing_time_seconds": 7.9,
+      "success": true
+    }
+  },
+  {
+    "id": 88,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "My ex partner is harassing me and will not stop talking to my friends and family.",
+      "context": "seeker: I have tried but everyone just tells me there is nothing they can do because they don't think it is dangerous or criminal at this point | supporter: That must be very frustrating. Can you tell me if you’ve tried other things to get them to stop? | seeker: I have confronted them in person but it was dramatic to say the least. They basically had a meltdown that they don't want to lose me | supporter: You tried to do the right thing and they are having a difficult time letting go. The ongoing comments through social media sounds like they are wanting your attention. That can be exhausting for you. In my past, I had to block someone who did something similar to me. If my friends mentioned seeing something from my ex about me, I asked them to keep it to themselves or consider blocking them,too. The people who were closest to me understood what was going on and I realized that people who didn’t know me, didn’t matter. Would you be willing to suggest this to friends or family if it would help to remove the ex from your interactions? | seeker: I have encouraged my friends to block them as well, but a new account always pops up. My ex really will not give up."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nMy ex partner is harassing me and will not stop talking to my friends and family.\n\nConversation History:\nseeker: I have tried but everyone just tells me there is nothing they can do because they don't think it is dangerous or criminal at this point | supporter: That must be very frustrating. Can you tell me if you’ve tried other things to get them to stop? | seeker: I have confronted them in person but it was dramatic to say the least. They basically had a meltdown that they don't want to lose me | supporter: You tried to do the right thing and they are having a difficult time letting go. The ongoing comments through social media sounds like they are wanting your attention. That can be exhausting for you. In my past, I had to block someone who did something similar to me. If my friends mentioned seeing something from my ex about me, I asked them to keep it to themselves or consider blocking them,too. The people who were closest to me understood what was going on and I realized that people who didn’t know me, didn’t matter. Would you be willing to suggest this to friends or family if it would help to remove the ex from your interactions? | seeker: I have encouraged my friends to block them as well, but a new account always pops up. My ex really will not give up.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you taking care of yourself emotionally amidst all this, and what do you think you need right now to feel safe and supported in this situation?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:41.132528",
+      "processing_time_seconds": 3.48,
+      "success": true
+    }
+  },
+  {
+    "id": 89,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am very scared about next college semester it is frightening",
+      "context": "seeker: hello"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am very scared about next college semester it is frightening\n\nConversation History:\nseeker: hello\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling really overwhelmed about the upcoming semester. Can you tell me more about what's specifically causing you to feel scared or frightened about it?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:42:53.207109",
+      "processing_time_seconds": 11.57,
+      "success": true
+    }
+  },
+  {
+    "id": 90,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I am very scared about next college semester it is frightening",
+      "context": "seeker: hello | supporter: Hi there, how can I help you? | seeker: I would like some help with the problem I am facing"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI am very scared about next college semester it is frightening\n\nConversation History:\nseeker: hello | supporter: Hi there, how can I help you? | seeker: I would like some help with the problem I am facing\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling really overwhelmed about the upcoming college semester. Can you tell me more about what's specifically causing you to feel scared and frightened about it?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:43:01.559936",
+      "processing_time_seconds": 7.85,
+      "success": true
+    }
+  },
+  {
+    "id": 91,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I lost my job Due to COVID-19 , I really work hard for the company for past five years but they just through out from the company.",
+      "context": "seeker: Hai friend how are you?"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI lost my job Due to COVID-19 , I really work hard for the company for past five years but they just through out from the company.\n\nConversation History:\nseeker: Hai friend how are you?\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "I'm so sorry to hear about your job loss, especially after dedicating five years to the company. That can be really tough and feel unfair. How are you taking care of yourself and coping with the emotions that have come up since losing your job?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:43:14.614129",
+      "processing_time_seconds": 12.55,
+      "success": true
+    }
+  },
+  {
+    "id": 92,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I'm kind of just generally feeling seasonal depression as I don't feel happy,",
+      "context": "seeker: Hello there"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI'm kind of just generally feeling seasonal depression as I don't feel happy,\n\nConversation History:\nseeker: Hello there\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're experiencing a challenging time with your emotions. Can you tell me more about what's been going on and how you've been feeling lately, especially with the changing seasons?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:43:26.176771",
+      "processing_time_seconds": 11.06,
+      "success": true
+    }
+  },
+  {
+    "id": 93,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I'm kind of just generally feeling seasonal depression as I don't feel happy,",
+      "context": "seeker: Hello there | supporter: Hi, how are you? | seeker: Im okay, just a bit out of it"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI'm kind of just generally feeling seasonal depression as I don't feel happy,\n\nConversation History:\nseeker: Hello there | supporter: Hi, how are you? | seeker: Im okay, just a bit out of it\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're not feeling your usual self, and that can be really tough. Can you tell me more about what you mean by \"out of it\" - is it a feeling of being disconnected from things you normally enjoy, or is it more of a low-energy or sluggish feeling that's been following you lately?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:43:41.436019",
+      "processing_time_seconds": 14.75,
+      "success": true
+    }
+  },
+  {
+    "id": 94,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I'm kind of just generally feeling seasonal depression as I don't feel happy,",
+      "context": "supporter: Yes, it is the same for most of the people. Any thing particular bothering you? | seeker: I think just general how covid hasn't been resolved yet | seeker: Its sad being stuck at home | supporter: So, you cannot go out due to COVID and that makes you frustrated. Is that correct? | seeker: More sad I would say"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI'm kind of just generally feeling seasonal depression as I don't feel happy,\n\nConversation History:\nsupporter: Yes, it is the same for most of the people. Any thing particular bothering you? | seeker: I think just general how covid hasn't been resolved yet | seeker: Its sad being stuck at home | supporter: So, you cannot go out due to COVID and that makes you frustrated. Is that correct? | seeker: More sad I would say\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "Can you tell me more about what comes to mind when you think about being stuck at home, and how that sadness affects your daily life and relationships?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:43:51.267597",
+      "processing_time_seconds": 9.33,
+      "success": true
+    }
+  },
+  {
+    "id": 95,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "I'm kind of just generally feeling seasonal depression as I don't feel happy,",
+      "context": "seeker: No not really. I just finished the semester | supporter: You could explore some of your hobbies, such as music, painting, or workingout.. | seeker: Hmm what specific hobbies would you recomend? | supporter: Whichever you enjoy.. pick one. There are a lots of online resources you cloud use. | seeker: Do you know of any specific online resources? I haven't looked at this before"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nI'm kind of just generally feeling seasonal depression as I don't feel happy,\n\nConversation History:\nseeker: No not really. I just finished the semester | supporter: You could explore some of your hobbies, such as music, painting, or workingout.. | seeker: Hmm what specific hobbies would you recomend? | supporter: Whichever you enjoy.. pick one. There are a lots of online resources you cloud use. | seeker: Do you know of any specific online resources? I haven't looked at this before\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like you're feeling a bit stuck and unsure about where to start with exploring hobbies to help with your seasonal depression. Before we dive into specific online resources, can you tell me what you think is missing from your daily life that's contributing to these feelings of unhappiness, and what you hope to get out of trying a new hobby or activity?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:44:00.404900",
+      "processing_time_seconds": 8.64,
+      "success": true
+    }
+  },
+  {
+    "id": 96,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "breakup with partner",
+      "context": ""
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nbreakup with partner\n\nConversation History:\n[This is the start of the conversation]\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "How are you feeling right now about the breakup, and what's been the most challenging part of this experience for you so far?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:44:08.728776",
+      "processing_time_seconds": 7.82,
+      "success": true
+    }
+  },
+  {
+    "id": 97,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "breakup with partner",
+      "context": "supporter: Hey there! How are you feeling today? | seeker: Not so well"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nbreakup with partner\n\nConversation History:\nsupporter: Hey there! How are you feeling today? | seeker: Not so well\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "It sounds like the breakup is still feeling really tough for you. Can you tell me more about what's been the most difficult part for you since the breakup, and how you've been taking care of yourself during this time?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:44:20.816950",
+      "processing_time_seconds": 11.58,
+      "success": true
+    }
+  },
+  {
+    "id": 98,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "breakup with partner",
+      "context": "seeker: I taught that she was my everything hereafter. | seeker: but the fate plays a great game upon me | supporter: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings? | seeker: I have some activities to do so, but i cannot able to concentrate on what i am doing | supporter: Okay, that's very understandable. I'm sure there's another strategy we can come up with."
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nbreakup with partner\n\nConversation History:\nseeker: I taught that she was my everything hereafter. | seeker: but the fate plays a great game upon me | supporter: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings? | seeker: I have some activities to do so, but i cannot able to concentrate on what i am doing | supporter: Okay, that's very understandable. I'm sure there's another strategy we can come up with.\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "What do you think is the most overwhelming emotion for you right now, is it the sadness of losing the relationship, the shock of the breakup, or something else that's making it difficult for you to concentrate on your daily activities?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:44:22.922438",
+      "processing_time_seconds": 1.6,
+      "success": true
+    }
+  },
+  {
+    "id": 99,
+    "model_provider": "llama-api",
+    "input": {
+      "situation": "breakup with partner",
+      "context": "supporter: Okay, that's very understandable. I'm sure there's another strategy we can come up with. | supporter: Do you have a friend or family member you can talk about your feelings with? | seeker: yeah! i have few friends | supporter: That's great. You've already taken a huge step by reaching out for help and that's a big deal! A good next step might be letting the people around you know that you need some support at this time. Sometimes people don't know something until you tell them, even if it seems obvious. Is that something you can do? | seeker: But i can't tell this to them because they also become sad when they know about this"
+    },
+    "prompt": "You are a professional counselor. Given a client's situation and conversation history, generate an appropriate counseling question to ask next.\n\nGuidelines:\n- Generate an appropriate counseling question to ask next\n- Show empathy and understanding\n- Focus on the client's emotions and experiences\n- Avoid giving direct advice; instead, guide through questions\n- Be supportive and non-judgmental\n\nClient Situation:\nbreakup with partner\n\nConversation History:\nsupporter: Okay, that's very understandable. I'm sure there's another strategy we can come up with. | supporter: Do you have a friend or family member you can talk about your feelings with? | seeker: yeah! i have few friends | supporter: That's great. You've already taken a huge step by reaching out for help and that's a big deal! A good next step might be letting the people around you know that you need some support at this time. Sometimes people don't know something until you tell them, even if it seems obvious. Is that something you can do? | seeker: But i can't tell this to them because they also become sad when they know about this\n\nWhat would be an appropriate counseling question to ask?\n\nCounseling Question:",
+    "generated_question": "That can be really tough, feeling like you're carrying this burden alone and not wanting to add to your friends' sadness. Can you help me understand what's holding you back from sharing your feelings with them, is it the fear of seeing them sad, or is there something else that's making you hesitant to open up to them about what you're going through?",
+    "metadata": {
+      "timestamp": "2025-06-08T23:44:36.920958",
+      "processing_time_seconds": 13.49,
+      "success": true
+    }
+  }
+]
