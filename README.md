@@ -1,8 +1,41 @@
-# Counseling LLM Project
+## 🛠️ Installation & Setup
 
-This project focuses on training and evaluating Large Language Models (LLMs) to act as counseling supporters by asking appropriate questions based on conversation context and situation.
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package installer)
 
-## 📁 Project Structure
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd counseling-llm-ESConv
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set Up API Keys
+Create a `.env` file in the project root:
+```bash
+# Create .env file and add your API keys
+nano .env
+
+# Add the following to your .env file:
+OPENAI_API_KEY=your_openai_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+TOGETHER_API_KEY=your_together_api_key_here
+```
+
+### 4. Run the Project
+```bash
+# Test the setup
+cd scripts/llm_tasks
+python process_questions.py
+```
+
+##  Project Structure
 
 ```
 counseling-llm/
