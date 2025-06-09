@@ -7,7 +7,7 @@
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd counseling-llm-ESConv
+cd counseling-llm
 ```
 
 ### 2. Install Dependencies
@@ -28,83 +28,121 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 TOGETHER_API_KEY=your_together_api_key_here
 ```
 
-### 4. Run the Project
-```bash
-# Test the setup
-cd scripts/llm_tasks
-python process_questions.py
-```
-
-##  Project Structure
+## 📁 Project Structure
 
 ```
 counseling-llm/
 ├── data/
-│   ├── raw/                    # Original, unprocessed data
-│   │   └── ESConv.json        # Raw ESConv dataset
-│   ├── processed/             # Processed conversation data
-│   │   ├── supporter_questions_with_feedback.json  # Questions grouped by conversation
-│   │   └── individual_questions.json              # Flattened individual questions
+│   ├── raw/                          # Original ESConv dataset
+│   │   └── ESConv.json              # Raw counseling conversations 
+│   └── processed/                   # Processed conversation data
+│       ├── supporter_questions_with_feedback.json  # Questions with context 
+│       └── individual_questions.json              # Flattened questions 
 ├── scripts/
-│   ├── data_processing/       # Scripts for data extraction and processing
-│   │   ├── extract_questions.py     # Extract questions from ESConv.json
-│   │   └── prepare_llm_data.py      # Prepare data for LLM training
-│   └── llm_tasks/            # Scripts for LLM training and evaluation
-│       ├── generate_questions.py    # Generate questions using LLM
-│       ├── evaluate_questions.py    # Evaluate generated questions
-│       └── train_model.py           # Fine-tune LLM (optional)
-├── models/                   # Trained/fine-tuned models
-├── results/                  # Evaluation results and outputs
-├── configs/                  # Configuration files
-│   └── model_config.json
-└── README.md
+│   ├── data_processing/             # Data extraction and preparation
+│   │   ├── extract_questions.py    # Extract supporter questions from ESConv
+│   │   └── input_context.py        # Flatten questions for processing
+│   └── llm_tasks/                   # LLM processing and analysis
+│       ├── process_questions.py    # Multi-model question generation
+│       ├── json_to_csv.py          # Convert results to CSV format
+│       └── analyze_csv.py          # Comprehensive analysis pipeline
+├── models/
+│   └── prompt.md                    # Professional counseling prompt template
+├── results/                         # Organized analysis outputs
+│   ├── raw_outputs/                 # Original JSON files from LLMs
+│   ├── csv_data/                    # Processed CSV files for analysis
+│   ├── extracted_questions/         # Clean question text files
+│   ├── visualizations/              # Analysis charts and graphs
+│   ├── analysis_reports/            # Summary reports
+│   └── README.md                    # Results documentation
+└── requirements.txt                 # Project dependencies
 ```
 
 ## 📊 Data Flow
 
-1. **Raw Data** (`ESConv.json`) → **Extract Questions** → **Processed Data**
-2. **Processed Data** → **Prepare LLM Data** → **LLM-Ready Format**
-3. **LLM-Ready Data** → **Train/Evaluate LLM** → **Results**
+```
+ESConv.json (8.6MB)
+    ↓ extract_questions.py
+supporter_questions_with_feedback.json (2.4MB)
+    ↓ input_context.py  
+individual_questions.json (1.6MB)
+    ↓ process_questions.py
+Multi-Model Generated Questions (JSON + CSV)
+    ↓ analyze_csv.py
+Comprehensive Analysis + Visualizations
+```
 
 ## 🚀 Quick Start
 
-### 1. Data Processing (Already Done)
+### 1. Data Processing (Pre-completed)
+The ESConv dataset has been processed and is ready for LLM analysis:
+- ✅ 3,801 supporter questions extracted
+- ✅ 1,249 conversations processed
+- ✅ 98.2% have feedback ratings
+- ✅ Context and situation included
+
+### 2. Generate Questions with Multiple LLMs
 ```bash
-cd scripts/data_processing/
-python extract_questions.py  # Creates supporter_questions_with_feedback.json
+cd scripts/llm_tasks/
+python process_questions.py
 ```
 
-### 2. Prepare Data for LLM
+**Supported Models:**
+- **OpenAI**: `gpt-4o`, `gpt-4o-mini`
+- **Google**: `gemini-2.0-flash-lite`
+- **Anthropic**: `claude-3-5-sonnet-20241022`
+- **Meta**: `meta-llama/Llama-3.3-70B-Instruct-Turbo-Free`
+
+### 3. Convert to CSV (Optional)
 ```bash
-python prepare_llm_data.py   # Creates training/validation/test splits with prompts
+python json_to_csv.py results/llm_generated_questions_[model].json
 ```
 
-### 3. Generate Questions with LLM
+### 4. Run Comprehensive Analysis
 ```bash
-cd ../llm_tasks/
-python generate_questions.py  # Use LLM to generate questions
+python analyze_csv.py
 ```
 
-### 4. Evaluate Results
-```bash
-python evaluate_questions.py  # Compare generated vs. actual questions
-```
-
-## 📝 Data Format for LLM
-
-Each training example follows this format:
-```json
-{
-  "prompt": "Given the situation and conversation context, what would be an appropriate counseling question to ask?\n\nSituation: [situation]\nContext: [dialogue_history]\n\nQuestion:",
-  "completion": "[actual_supporter_question]",
-  "situation": "[situation]",
-  "context": "[dialogue_history]"
-}
-```
+**Analysis Features:**
+- 📊 Processing time comparison across models
+- 📏 Question length analysis (words + characters)
+- 🎯 Question starter pattern analysis (first two words)
+- 📝 Clean question extraction
+- 📋 Professional summary reports
 
 ## 🛠️ Key Scripts
 
-- **`extract_questions.py`**: Extract supporter questions from raw data
-- **`prepare_llm_data.py`**: Format data for LLM training with proper prompts
-- **`generate_questions.py`**: Use LLM to generate counseling questions
-- **`evaluate_questions.py`**: Evaluate quality of generated questions
+### **`extract_questions.py`** 
+Extracts supporter questions from raw ESConv data with context and feedback ratings.
+
+### **`process_questions.py`** 
+Main LLM processing pipeline with:
+- Multi-provider support (OpenAI, Google, Anthropic, Meta)
+- Batch processing with rate limiting
+- Incremental saving for safety
+- Automatic CSV generation
+
+### **`analyze_csv.py`** 
+Advanced analysis pipeline featuring:
+- Processing time comparison
+- Question length analysis  
+- Starter pattern analysis
+- Professional visualizations
+- Organized output management
+- Claude-specific cleaning (removes verbose analysis)
+
+### **`json_to_csv.py`** 
+Converts JSON outputs to analysis-ready CSV format with statistics.
+
+## 📦 Dependencies
+
+```
+# Core LLM APIs
+openai>=1.0.0, google-generativeai>=0.8.0, anthropic>=0.25.0, together>=1.0.0
+
+# Data Processing
+pandas>=2.0.0, python-dotenv>=1.0.0, requests>=2.31.0
+
+# Visualization & Analysis  
+matplotlib>=3.5.0, seaborn>=0.11.0, numpy>=1.21.0, wordcloud>=1.9.0
+```

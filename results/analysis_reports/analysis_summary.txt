@@ -1,0 +1,44 @@
+LLM COUNSELING QUESTIONS ANALYSIS REPORT
+==================================================
+Generated on: 2025-06-09 15:13:53
+
+MODELS ANALYZED
+--------------------
+• claude: 100/100 records (100.0% success)
+• gemini: 100/100 records (100.0% success)
+• llama-api: 99/99 records (100.0% success)
+• gpt4o-mini: 99/99 records (100.0% success)
+
+PROCESSING TIME STATISTICS
+------------------------------
+            count   mean  median    std   min    max
+model                                               
+claude        100  3.967   3.895  0.616  2.60   5.86
+gemini        100  0.746   0.730  0.129  0.52   1.04
+gpt4o-mini     99  1.319   1.150  0.545  0.61   4.22
+llama-api      99  7.543   6.990  4.911  0.58  17.89
+
+QUESTION EXTRACTION SUMMARY
+------------------------------
+• claude: 100 questions extracted
+• gemini: 100 questions extracted
+• llama-api: 99 questions extracted
+• gpt4o-mini: 99 questions extracted
+
+FILES GENERATED
+---------------
+📈 visualizations/
+  • processing_time_analysis.png - Speed comparison charts
+  • question_length_analysis.png - Word/character count analysis
+  • question_starters_analysis.png - First two words analysis
+📝 extracted_questions/
+  • questions_claude.txt - Clean extracted questions
+  • questions_gemini.txt - Clean extracted questions
+  • questions_llama-api.txt - Clean extracted questions
+  • questions_gpt4o-mini.txt - Clean extracted questions
+📋 analysis_reports/
+  • analysis_summary.txt - This comprehensive report
+📊 csv_data/
+  • *_basic.csv files - Source data for analysis
+🗂️ raw_outputs/
+  • *.json files - Original LLM processing outputs
