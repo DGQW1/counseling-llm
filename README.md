@@ -12,10 +12,6 @@ counseling-llm/
 │   ├── processed/             # Processed conversation data
 │   │   ├── supporter_questions_with_feedback.json  # Questions grouped by conversation
 │   │   └── individual_questions.json              # Flattened individual questions
-│   └── llm_ready/            # Data formatted for LLM training/evaluation
-│       ├── training_prompts.json
-│       ├── validation_prompts.json
-│       └── test_prompts.json
 ├── scripts/
 │   ├── data_processing/       # Scripts for data extraction and processing
 │   │   ├── extract_questions.py     # Extract questions from ESConv.json
