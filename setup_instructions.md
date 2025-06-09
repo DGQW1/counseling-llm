@@ -65,31 +65,29 @@ MODEL_PROVIDER = "gpt4o"     # OpenAI GPT-4o
 1. Go to [OpenAI Platform](https://platform.openai.com/api-keys)
 2. Create account and add payment method
 3. Generate API key
-4. Cost: ~$0.03 per 1K input tokens, ~$0.06 per 1K output tokens
 
 ### Gemini (Google)
 1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Create Google account
 3. Generate API key
-4. Cost: Free tier available, then ~$0.00125 per 1K characters
+
 
 ### Claude (Anthropic)
 1. Go to [Anthropic Console](https://console.anthropic.com/)
 2. Create account and add payment method
 3. Generate API key
-4. Cost: ~$0.003 per 1K input tokens, ~$0.015 per 1K output tokens
+
 
 ### Llama (Local via Ollama)
 1. Install [Ollama](https://ollama.ai/)
 2. Run: `ollama pull llama3.1`
 3. Start server: `ollama serve`
-4. Cost: Free (runs locally)
+
 
 ### Llama (API via Together AI)
 1. Go to [Together AI](https://api.together.xyz/)
 2. Create account and add payment method
 3. Generate API key
-4. Cost: ~$0.0002 per 1K input tokens, ~$0.0002 per 1K output tokens
 
 ## ⚠️ Rate Limiting & Costs
 

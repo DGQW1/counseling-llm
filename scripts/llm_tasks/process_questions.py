@@ -3,6 +3,7 @@ import os
 import time
 from typing import List, Dict, Any
 from datetime import datetime
+from pathlib import Path
 
 # Load environment variables
 try:
@@ -10,6 +11,11 @@ try:
     load_dotenv("../../.env")  # Load from project root
 except ImportError:
     print("Warning: python-dotenv not installed. Using environment variables directly.")
+
+# Import CSV conversion function from existing script
+import sys
+sys.path.append('.')
+from json_to_csv import convert_to_basic_csv
 
 def load_prompt_template(prompt_path: str = "../../models/prompt.md") -> str:
     """
@@ -86,7 +92,7 @@ def call_llm(prompt: str, model_provider: str = "gpt4o-mini", model_config: Dict
                 return "ERROR: GOOGLE_API_KEY not found in environment variables"
             
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-1.5-pro')  # or 'gemini-1.5-flash'
+            model = genai.GenerativeModel('gemini-2.0-flash-lite')  
             
             response = model.generate_content(
                 prompt,
@@ -266,10 +272,10 @@ def save_results_incrementally(results: List[Dict], output_path: str):
 def process_all_questions(
     questions_data: List[Dict], 
     prompt_template: str, 
-    model_provider: str = "gpt4o-mini",
+    model_provider: str,
+    batch_size: int,
+    delay_seconds: float,
     output_path: str = "../../results/llm_generated_questions.json",
-    batch_size: int = 10,
-    delay_seconds: float = 1.0,
     max_questions: int = None
 ) -> List[Dict]:
     """
@@ -354,11 +360,12 @@ def main():
     """
     print("🤖 Starting LLM Question Generation Pipeline...")
     
-    # Choose your model provider here:
-    MODEL_PROVIDER = "gpt4o-mini"  # Options: "gpt4o", "gpt4o-mini", "gemini", "claude", "llama", "llama-api", "mock"
-    
-    # For testing, you can limit the number of questions
-    MAX_QUESTIONS = 100  # Set to None to process all questions, or a number for testing
+    # Configuration
+    MODEL_PROVIDER = "gemini"  # Options: "gpt4o", "gpt4o-mini", "gemini", "claude", "llama", "llama-api", "mock"
+    MAX_QUESTIONS = 100
+    output_path = f"../../results/llm_generated_questions_{MODEL_PROVIDER}.json"
+    batch_size = 20
+    delay_seconds = 0.5 
     
     # Load prompt template
     try:
@@ -377,11 +384,6 @@ def main():
         print("❌ individual_questions.json not found")
         return
     
-    # Configuration
-    output_path = f"../../results/llm_generated_questions_{MODEL_PROVIDER}.json"
-    batch_size = 10  # Save every 10 questions
-    delay_seconds = 1.0  # 1 second delay between API calls
-    
     print(f"🎯 Using model provider: {MODEL_PROVIDER}")
     if MAX_QUESTIONS:
         print(f"🧪 Testing mode: Processing only {MAX_QUESTIONS} questions")
@@ -395,21 +397,49 @@ def main():
             return
         else:
             print("✅ OpenAI API key found")
+    elif MODEL_PROVIDER == "gemini":
+        api_key = os.getenv("GOOGLE_API_KEY")
+        if not api_key:
+            print("❌ GOOGLE_API_KEY not found in environment variables")
+            print("Please set your Google API key in environment variables")
+            return
+        else:
+            print("✅ Google API key found")
+    elif MODEL_PROVIDER == "claude":
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        if not api_key:
+            print("❌ ANTHROPIC_API_KEY not found in environment variables")
+            print("Please check your .env file")
+            return
+        else:
+            print("✅ Anthropic API key found")
+    elif MODEL_PROVIDER == "llama-api":
+        api_key = os.getenv("TOGETHER_API_KEY")
+        if not api_key:
+            print("❌ TOGETHER_API_KEY not found in environment variables")
+            print("Please check your .env file")
+            return
+        else:
+            print("✅ Together AI API key found")
     
     # Process all questions
     results = process_all_questions(
         questions_data, 
         prompt_template,
         model_provider=MODEL_PROVIDER,
-        output_path=output_path,
         batch_size=batch_size,
         delay_seconds=delay_seconds,
+        output_path=output_path,
         max_questions=MAX_QUESTIONS
     )
     
     # Print summary and samples
     print_summary(results)
     print_sample_results(results)
+    
+    # Automatically generate basic CSV
+    csv_output_path = output_path.replace('.json', '_basic.csv')
+    convert_to_basic_csv(results, csv_output_path)
     
     print(f"\n📁 Results saved to: {output_path}")
     print("🎉 Processing complete!")
