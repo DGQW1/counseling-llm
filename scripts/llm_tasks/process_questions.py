@@ -361,7 +361,7 @@ def main():
     print("🤖 Starting LLM Question Generation Pipeline...")
     
     # Configuration
-    MODEL_PROVIDER = "gemini"  # Options: "gpt4o", "gpt4o-mini", "gemini", "claude", "llama", "llama-api", "mock"
+    MODEL_PROVIDER = "claude"  # Options: "gpt4o", "gpt4o-mini", "gemini", "claude", "llama", "llama-api", "mock"
     MAX_QUESTIONS = 100
     output_path = f"../../results/llm_generated_questions_{MODEL_PROVIDER}.json"
     batch_size = 20

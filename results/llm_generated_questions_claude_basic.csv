@@ -1,0 +1,995 @@
+id,model_provider,situation,context,generated_question,processing_time_seconds,timestamp,success
+0,claude,I hate my job but I am scared to quit and seek a new career.,seeker: Hello,"""I hear that you're feeling trapped between your unhappiness at work and the fear of making a change. Could you tell me more about what makes your current job feel so difficult for you?""
+
+This question:
+- Validates their emotional experience (acknowledging both the hate and fear)
+- Opens the door for deeper exploration of their specific workplace challenges
+- Is open-ended to encourage detailed reflection
+- Focuses on their immediate experience before jumping to solutions
+- Shows empathy while maintaining professional boundaries
+- Allows the client to lead the direction of the conversation",3.79,2025-06-08T21:03:05.911932,True
+1,claude,I hate my job but I am scared to quit and seek a new career.,"seeker: Hello | supporter: Hello, what would you like to talk about? | seeker: I am having a lot of anxiety about quitting my current job. It is too stressful but pays well","""I hear how conflicted you're feeling between the financial security and the stress of your current job. Could you tell me more about what aspects of leaving your job feel most scary to you?""
+
+This question:
+- Validates their emotional experience by acknowledging both the anxiety and the conflict
+- Uses reflection to show understanding of their situation
+- Opens up exploration of specific fears around career change
+- Is open-ended to encourage deeper discussion
+- Focuses on emotions while remaining non-judgmental
+- Helps the client examine their concerns more specifically
+- Allows them to identify particular barriers they may need to address",4.02,2025-06-08T21:03:10.441830,True
+2,claude,I hate my job but I am scared to quit and seek a new career.,"seeker: Hello | supporter: Hello, what would you like to talk about? | seeker: I am having a lot of anxiety about quitting my current job. It is too stressful but pays well | supporter: What makes your job stressful for you? | seeker: I have to deal with many people in hard financial situations and it is upsetting","""It sounds emotionally draining to regularly interact with people in difficult financial situations. How does carrying their struggles affect you personally, both during and after work hours?""
+
+This question:
+- Validates their emotional experience
+- Shows empathy for the challenging nature of their work
+- Explores the emotional impact on their wellbeing
+- Helps them reflect on how the job affects their life holistically
+- Opens up discussion about work-life balance and emotional boundaries
+- Allows them to explore their feelings more deeply while feeling heard and understood
+
+This can lead to further exploration of their needs and values, helping them process their anxiety about making a career change while acknowledging the legitimate challenges they face.",3.58,2025-06-08T21:03:14.520329,True
+3,claude,I hate my job but I am scared to quit and seek a new career.,"supporter: Do you help your clients to make it to a better financial situation? | seeker: I do, but often they are not going to get back to what they want. Many people are going to lose their home when safeguards are lifted | supporter: But you offer them a better future than what they have currently. It may not be what they wanted, but it helps them in the long run. | seeker: That is true but sometimes I feel like I should put my feelings and health first | supporter: I can understand that.","""Can you tell me more about how your current job is affecting your health and emotional well-being?""
+
+This question is appropriate because it:
+1. Shows empathy by acknowledging the client's concern about their health and feelings
+2. Opens up exploration of the specific impacts of their work situation
+3. Helps understand the severity of the situation without making assumptions
+4. Allows the client to express their emotions and experiences in detail
+5. Creates space for the client to reflect on the real costs of staying in their current position
+
+This question can help lead to a deeper discussion about what changes they might need while acknowledging their valid fears about making a career transition.",4.17,2025-06-08T21:03:19.192156,True
+4,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,,"""That sounds really isolating and painful. Could you tell me more about what makes you feel unsupported by your friends? What does a specific situation look like when you feel this way?""
+
+Rationale for this question:
+- Shows empathy by acknowledging the emotional pain
+- Opens the door for the client to share specific experiences
+- Helps understand the client's perspective and definition of ""unsupportive""
+- Allows the client to explore their feelings in more detail
+- Non-judgmental and inviting tone that encourages deeper sharing",3.91,2025-06-08T21:03:23.607054,True
+5,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,supporter: Hello how are you? | seeker: hello im looking for someone to talk to | seeker: im fine how are you,"""I hear how lonely and disappointed you're feeling about your friendships right now. Could you tell me more about what makes you feel unsupported by your friends?""
+
+This question:
+- Shows empathy by acknowledging their emotional state
+- Opens the door for them to elaborate on their specific experiences
+- Is non-judgmental and allows them to share their perspective
+- Helps explore the root of their feelings about their friendships
+- Demonstrates active listening by inviting them to share more details",3.01,2025-06-08T21:03:27.115408,True
+6,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,seeker: im fine how are you | supporter: I'm doing ok I'm glad you are good. Is it snowing by you? | supporter: Merry Christmas! | seeker: thats great and no its not snowing its very cold thow | seeker: merry christmas to you also,"""I hear how painful it is to feel unsupported by your friends. Could you tell me more about what makes you feel unsupported in these friendships?""
+
+This question:
+- Validates their emotional experience
+- Shows empathy for their situation
+- Opens the door for them to elaborate on specific experiences
+- Helps explore the root of their feelings
+- Maintains a non-judgmental stance
+- Allows them to share their perspective in their own words
+
+The question is open-ended and invites the client to share more deeply about their experience while showing that we're genuinely interested in understanding their situation better.",4.49,2025-06-08T21:03:32.107829,True
+7,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,seeker: merry christmas to you also | supporter: How can I help you today? | seeker: im having some issues with friends not actually being friends | supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right? | seeker: yes,"""Could you tell me more about what makes you feel unsupported by your friends? What specific experiences have led you to feel this way?""
+
+This question:
+- Shows empathy by acknowledging their feelings of being unsupported
+- Opens the door for them to share specific experiences and emotions
+- Helps explore the root of their feelings without making assumptions
+- Allows the client to express their perspective in their own words
+- Demonstrates active listening and genuine interest in understanding their situation better
+
+The open-ended nature of this question encourages the client to elaborate on their experiences while validating their feelings about their friendships.",4.51,2025-06-08T21:03:37.123537,True
+8,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,seeker: im having some issues with friends not actually being friends | supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right? | seeker: yes | supporter: I understand that... Did something happen that makes you feel like that? | seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc,"""When you experience this lack of response and interaction from your friends, how does that make you feel emotionally? Can you tell me more about those feelings?""
+
+This question:
+- Validates their experience by acknowledging the situation
+- Encourages emotional exploration
+- Shows empathy for their situation
+- Helps them process their feelings about the friendship challenges
+- Opens up space for them to share deeper feelings about the rejection they're experiencing
+- Maintains a supportive, non-judgmental tone
+- Allows them to express potentially difficult emotions in a safe space
+
+The question focuses on their emotional experience rather than jumping to solutions, helping them process their feelings about this difficult situation with their friends.",5.22,2025-06-08T21:03:42.844633,True
+9,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,seeker: yes | supporter: I understand that... Did something happen that makes you feel like that? | seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc | supporter: Is this a significant other? | seeker: no friends,"""How long have you been noticing this change in your friendships, and how has this lack of connection been making you feel emotionally?""
+
+This question is appropriate because it:
+1. Shows empathy by acknowledging their experience
+2. Helps explore the timeline of the situation
+3. Opens up discussion about their emotional response
+4. Allows the client to elaborate on their feelings of disconnection
+5. Is open-ended and encourages deeper reflection
+6. Doesn't make assumptions or offer premature solutions
+7. Creates space for the client to process their emotions about the situation
+
+This question can help lead to a deeper understanding of both the practical situation and its emotional impact on the client, which is crucial",4.48,2025-06-08T21:03:47.822651,True
+10,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc | supporter: Is this a significant other? | seeker: no friends | supporter: Are they ignoring you? | seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not,"""How does this distance and lack of communication from your friends make you feel emotionally? Can you tell me more about that?""
+
+This question:
+- Focuses on the client's emotional experience
+- Shows empathy by acknowledging their situation
+- Opens space for deeper exploration of their feelings
+- Helps understand the impact of this situation on their wellbeing
+- Allows them to process their emotions about the friendship changes
+- Is open-ended and encourages detailed reflection
+
+The question aims to help the client explore their emotional response while validating their experience of feeling disconnected from their friend group.",3.86,2025-06-08T21:03:52.189979,True
+11,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not | supporter: Are you sure they are okay? Or not away with family for the holidays? | seeker: it doesnt matter they still keep open communication with each other | supporter: That's no good what do you think the problem is? | seeker: I believe its because I am the friend that has financial trouble and normally needs to borrow money,"""How does it feel when you see them maintaining connections with each other while you're being left out? I notice this situation with money seems to be weighing heavily on you.""
+
+This question is appropriate because it:
+1. Validates the client's emotional experience
+2. Shows empathy for their situation
+3. Explores the emotional impact of feeling excluded
+4. Acknowledges the financial aspect they brought up without immediately focusing on it
+5. Opens the door for deeper discussion about both their feelings and relationships
+6. Remains non-judgmental while inviting honest reflection
+
+The question allows the client to explore both their emotional response to the situation and their perception of how financial matters may have affected their friendships, while",5.81,2025-06-08T21:03:58.506196,True
+12,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,"seeker: no im not currently | seeker: I also think sometimes to myself that they don't answer because they think I'm asking for money | supporter: I see, Have you tried for unemployment? | seeker: yes i dont qualify | supporter: I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that.","""How does this lack of support from your friends make you feel emotionally? Can you tell me more about what you're experiencing?""
+
+This question:
+- Shows empathy by acknowledging their emotional struggle
+- Opens space for them to explore their feelings about the situation
+- Encourages deeper reflection about their emotional experience
+- Keeps focus on their perspective and feelings
+- Is open-ended to allow for detailed expression
+- Doesn't make assumptions or offer direct advice
+- Validates their experience by showing interest in understanding their emotional state",4.54,2025-06-08T21:04:03.549258,True
+13,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,supporter: Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same. | seeker: yes | supporter: Well that is about all that can be done and wait for them to come around...Do you have any hobbies? | seeker: yes i like to read and play music | supporter: I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me.,"""When you're engaging in reading or playing music, how does that make you feel emotionally, especially during times when you're feeling disconnected from your friends?""
+
+Rationale: This question:
+- Acknowledges their existing coping mechanisms (reading and music)
+- Explores their emotional experience
+- Helps them reflect on positive aspects of their life
+- Opens up discussion about emotional self-care
+- Shows interest in their personal experience
+- Maintains focus on their feelings while potentially identifying healthy coping strategies
+- Doesn't minimize their friendship concerns but helps explore alternative sources of emotional fulfillment",4.94,2025-06-08T21:04:08.993922,True
+14,claude,I have complete unsupportive friends its to the point where i dont even feel like i have friends any more .,supporter: I'm sure they will come around. | seeker: i think i would start off walking i am not in shape to run | seeker: yes i will give them time maybe stop reaching out so much | supporter: That may be a good idea. Good talk | seeker: yes thank you for talking with me and giving great advice,"""Can you tell me more about what makes you feel your friends are unsupportive? What specific experiences have led you to feel this way?""
+
+This question:
+- Shows empathy by validating their concern about friendship difficulties
+- Opens space for them to share specific experiences and emotions
+- Helps explore the root of their feelings without making assumptions
+- Allows them to reflect on concrete situations rather than just general feelings
+- Maintains a non-judgmental tone while seeking to understand their perspective better
+
+Alternative follow-up could be: ""How does this lack of support from your friends affect you emotionally?""",4.1,2025-06-08T21:04:13.603262,True
+15,claude,I have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.,,"""That sounds like a really stressful situation to be in. How have you been coping with these fears and uncertainties during your quarantine period?""
+
+This question:
+- Acknowledges the client's emotional state and validates their concerns
+- Opens up exploration of their coping mechanisms
+- Shows empathy for their difficult situation
+- Allows the client to share both emotional and practical aspects of their experience
+- Keeps the focus on their immediate experience while giving them space to express their concerns
+- Is open-ended and encourages deeper discussion
+
+Alternative follow-up questions could address:
+- Their understanding of their employment rights
+- Their communication with their employer during quarantine
+- Their support system during this challenging time",3.95,2025-06-08T21:04:18.053398,True
+16,claude,I have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.,"supporter: Hi there, how are you feeling today? | seeker: Hello","""It sounds like you're dealing with a lot of uncertainty right now, both with your health and your job. Could you tell me more about what makes you worried that your employer won't take you back?""
+
+This question:
+- Acknowledges the client's emotional state and validates their concerns
+- Shows empathy for their challenging situation
+- Opens up exploration of their specific fears
+- Allows the client to elaborate on their thoughts and feelings
+- Helps understand if there are specific incidents or communications that led to this fear
+- Remains non-judgmental and supportive
+- Encourages the client to share more details that could be relevant to their situation",3.88,2025-06-08T21:04:22.430475,True
+17,claude,I have been out of work for five weeks in quarantine due to testing positive for COVID-19.  I fear that my employer will not take me back to work even once I test negative.,"seeker: I have an advantage because I have a professional background in cooking, so I can take random ingredients and turn them into wonderful and nutritious meals. I just need to have the ingredients. | supporter: That sounds very encouraging! It's amazing what you can make even with cheap food. Noodles , for instance, are very versatile :) | seeker: You are right. I am definitely not going to sit and pout. I am just a bit frustrated with the system. | supporter: It's a very strange situation and I suspect that some of the authorities just feel overwhelmed and have no idea how to cope. | seeker: I am concerned that my boss may try to not take me back at my job. Because this is an ""at will"" state, he can terminate me without cause. Although he can not legally fire me for being ill with COVID, he can take me back and simply release me the same day saying that I have become redundant.","""I hear how worried you are about your job security, and that's completely understandable. Could you tell me more about what specific concerns or feelings come up when you think about returning to work?""
+
+This question:
+- Validates the client's legitimate fears
+- Shows empathy for their situation
+- Opens up exploration of their emotional experience
+- Allows them to elaborate on both practical and emotional concerns
+- Helps identify specific anxiety triggers that can be addressed
+- Maintains a supportive, non-judgmental tone
+- Encourages deeper reflection while keeping the focus on their experience
+
+The question is open-ended and allows the client to share more about their fears while also potentially revealing coping strategies or alternative perspectives",4.31,2025-06-08T21:04:27.246453,True
+18,claude,I am depressed staying home due to COVID,,"""Can you tell me more about how staying at home during COVID has been affecting you emotionally?""
+
+This open-ended question:
+- Shows empathy and acknowledges their struggle
+- Invites the client to explore and express their feelings
+- Helps understand the specific impact of their situation
+- Allows the client to share their unique experience
+- Creates space for them to identify particular challenges they're facing
+
+The question is non-judgmental and encourages the client to open up about their emotional experience while staying neutral and supportive.",3.19,2025-06-08T21:04:30.937064,True
+19,claude,I am depressed staying home due to COVID,supporter: Hi! How are you doing? | seeker: I am dong good. You?,"""I hear that you're feeling depressed while staying at home during COVID. Could you tell me more about what's been most challenging for you during this time?""
+
+This question:
+- Shows empathy by acknowledging their stated feeling of depression
+- Opens up the conversation to explore specific challenges
+- Allows the client to share their personal experience
+- Is open-ended to encourage deeper reflection
+- Doesn't make assumptions about their situation
+- Gives them space to identify what aspects of the situation are most impacting them",3.05,2025-06-08T21:04:34.490010,True
+20,claude,I am depressed staying home due to COVID,supporter: Hi! How are you doing? | seeker: I am dong good. You? | supporter: I am okay thanks but it is a worrying year. Have you been worrying about anything? | seeker: I have been staying home since last March due to COVID; getting very depressed.,"""It sounds really challenging being at home for such a long time. Could you tell me more about how this isolation has been affecting you emotionally on a daily basis?""
+
+This question:
+- Validates their experience of being home for an extended period
+- Shows empathy for their situation
+- Opens up discussion about specific emotional impacts
+- Encourages them to explore their feelings in more detail
+- Helps understand their daily lived experience
+- Is open-ended to allow for deeper exploration of their depression
+
+The question avoids making assumptions while inviting the client to share more about their personal experience with isolation and depression during the pandemic.",3.68,2025-06-08T21:04:38.674627,True
+21,claude,I am depressed staying home due to COVID,"supporter: Sometimes it does just make it easier to know that other people are in the same situation as you :) | seeker: You mean share experiences among the friends? | supporter: Yes .. or at least share coping mechanisms perhaps? | supporter: Do you have any hobbies that you can occupy yourself with right now? | seeker: Yes, I pay musical instruments but do to COVID could not play with the band","""It sounds like music is really important to you and not being able to play with your band has been difficult. How has this change in your musical expression affected you emotionally?""
+
+This question:
+- Acknowledges the client's passion for music
+- Shows understanding of their loss (band participation)
+- Opens up exploration of emotional impact
+- Validates their experience
+- Encourages deeper reflection about their feelings
+- Maintains empathetic connection
+- Allows the client to share more about their emotional state during isolation",3.29,2025-06-08T21:04:42.467313,True
+22,claude,"I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.",,"""That sounds like a really difficult and painful discovery. Could you tell me more about how you're feeling right now as you process this information?""
+
+This question:
+- Shows empathy for the challenging situation
+- Opens space for emotional exploration
+- Allows the client to express their immediate feelings and concerns
+- Doesn't make assumptions or judge the situation
+- Helps understand the emotional impact before exploring decisions
+- Gives the client control over what aspects they want to share
+
+Would you like me to explain why this would be an appropriate first question, or would you like to suggest a different approach?",3.33,2025-06-08T21:04:46.304522,True
+23,claude,"I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.","supporter: Hello, what is life like for you at the moment? | seeker: Infinitely complicated. | seeker: Too many decisions. I don't know what to do. | supporter: I am sorry to hear that but I am happy to listen and help you if I can","""How are you feeling emotionally about discovering these lies, and what does this mean to you personally?""
+
+This question is appropriate because it:
+1. Opens space for emotional exploration
+2. Validates the significance of the situation
+3. Helps the client connect with their deeper feelings about the betrayal
+4. Allows them to reflect on personal values and boundaries
+5. Remains non-directive while encouraging self-reflection
+
+The question is open-ended and focuses on their emotional experience rather than immediately jumping to decision-making, which helps process the trauma of betrayal before addressing what actions to take.
+
+Alternative follow-up could be: ""Can you tell me more about how this discovery has impacted your trust an",4.99,2025-06-08T21:04:51.798107,True
+24,claude,"I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.","seeker: My mind agrees. | seeker: My stupid emotions are clouding things. | supporter: Well, if you were to give him an ultimatum what do you think he would say? | seeker: I did. | seeker: LOL","""I hear how difficult and painful this situation is for you. Could you tell me more about what you're feeling right now, especially when you say your emotions are clouding things?""
+
+This question:
+- Acknowledges the emotional complexity of the situation
+- Shows empathy for their struggle
+- Opens space to explore the conflict between their rational thoughts and emotions
+- Helps them process their feelings about the betrayal
+- Allows them to examine their emotional response without judgment
+- Doesn't push them toward any particular decision
+- Follows up on their earlier comment about emotions clouding their judgment",4.1,2025-06-08T21:04:56.404787,True
+25,claude,"I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.","supporter: I can tell that you feel that you are being cheated here. I can't tell you what to do but don't you think you deserve better? | seeker: I guess that's what I'm trying to figure out. Should I give him time to prove himself now that he's backed into a corner. | supporter: It's not for me to say but I wonder if he's really going to change as he has not already. | seeker: That's not an easy question to answer. He treats me very well. Always has. And he is frantically trying to accomodate me, now htat I know. | seeker: I agree with you. It's one of my fears.","""When you say he treats you very well but has been lying about his life, I'm hearing some conflicting emotions there. Could you help me understand how you're feeling about this contradiction, and what it means to you?""
+
+This question is appropriate because it:
+1. Acknowledges the complexity of the situation
+2. Validates the client's mixed feelings
+3. Explores the emotional impact of the contradiction
+4. Allows the client to examine their own feelings without judgment
+5. Opens up discussion about what they value in relationships (honesty vs. good treatment)
+6. Helps them process their experience in their own words
+
+The question encourages deeper reflection while showing empathy for their difficult situation, without",3.83,2025-06-08T21:05:00.734318,True
+26,claude,"I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.","seeker: I agree with you. It's one of my fears. | supporter: How do your children feel about this? And his? | seeker: MY children (6 and 9) have been living with him in their lives as a male figure who is growing into a father figure. He and I have been together for fifteen months, and part-time living together for six. | seeker: This isn't a new relationship. That's part of the complication, too. | seeker: His kids actually asked if they could come live with me while he and his (ex?) figured their shit out.","""It sounds like this situation has deeply affected not just you, but also the children involved. How are you feeling about the impact this revelation has had on both your trust in him and the relationships that have developed between all family members?""
+
+This question is appropriate because it:
+1. Acknowledges the complexity of the situation
+2. Validates the significance of the trust breach
+3. Recognizes the family dynamics at play
+4. Opens space for exploring both emotional and practical concerns
+5. Allows the client to reflect on multiple aspects of the situation without leading them to a specific conclusion
+
+The question is open-ended and encourages the client to explore their feelings while considering the broader impact on all involved parties, particularly the",4.09,2025-06-08T21:05:05.328324,True
+27,claude,"I found out that my boyfriend had been lying to me about his entire life, and so the future that he had said we were building towards was all but impossible. I'm trying to figure out if I should stay with him.","seeker: I would all but guarantee it. | supporter: It just worries me that he might treat you the same way if you were ever in the same position | seeker: Here's the other kicker, though... | seeker: She knows about me. | seeker: (I know. You're right. I thought that as well)","""How are you feeling about your relationship now, given these revelations about his dishonesty? It sounds like this has been deeply impactful for you.""
+
+This question:
+- Opens space for emotional exploration
+- Acknowledges the significance of the betrayal
+- Allows the client to reflect on their current emotional state
+- Remains non-judgmental while addressing the core issue
+- Gives the client freedom to express their complex feelings about the situation
+- Shows empathy for the difficult position they're in
+
+Would you like me to suggest an alternative counseling question?",3.99,2025-06-08T21:05:09.821202,True
+28,claude,the uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight,,"""It sounds like you're dealing with a lot of uncertainty and frustration right now. Can you tell me more about how all of these challenges are affecting you emotionally?""
+
+This question:
+- Acknowledges the multiple stressors the client is facing (pandemic, job search, uncertainty)
+- Shows empathy by recognizing their difficult situation
+- Opens the door for them to explore their emotional experience
+- Is open-ended to encourage deeper reflection and discussion
+- Doesn't make assumptions or offer premature solutions
+- Helps establish a supportive therapeutic relationship from the start of the conversation
+
+The question allows the client to share their emotional burden while feeling heard and understood, which is particularly important as they're dealing with",4.21,2025-06-08T21:05:14.534347,True
+29,claude,the uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight,"supporter: Hi there, how are you doing? | seeker: could be better","""I hear that things are really challenging for you right now with the pandemic and job situation. Could you tell me more about what's been the most difficult part for you emotionally during this time?""
+
+This question:
+- Shows empathy by acknowledging their struggle
+- Opens space for deeper emotional exploration
+- Is open-ended to allow the client to share what matters most to them
+- Focuses on their personal experience and feelings
+- Doesn't make assumptions about their situation
+- Helps understand the specific impact of these challenges on their wellbeing",3.39,2025-06-08T21:05:18.429280,True
+30,claude,the uncertainty surrounding the corona virus pandemic. the unavailability of jobs. lack of success get jobs applied for. No ease or comfort of end being in sight,"supporter: So you're unemployed? I am sorry to hear that. Are you prepared to take jobs that are below your usual level just to get by for a while? | seeker: have tried that but don't even get an interview | supporter: It's a very difficult time to be out of work, I know. I hope that there is something out there for you. Have you tried employment agencies? | seeker: yes, I do not qualify for unemployment because I have savings above the min threshold and I also have rental property, which is currently loss making and I can't sell it because it's 30% below market value | supporter: Well, on the plus side at least you do have savings .. hopefully this can give you some security for a while","""I hear how frustrating and uncertain this situation is for you. How are you coping emotionally with all of these challenges - the job search stress, managing your property, and dealing with the pandemic uncertainty?""
+
+This question:
+- Acknowledges the multiple stressors the client is facing
+- Shows empathy for their difficult situation
+- Opens up exploration of emotional impact
+- Allows the client to share their coping mechanisms or lack thereof
+- Demonstrates understanding that financial stress has emotional consequences
+- Gives the client space to express their feelings about the overall situation
+
+The question helps move the conversation from purely practical matters to emotional support, which is important given the overwhelming nature of their circumstances.",3.78,2025-06-08T21:05:22.713535,True
+31,claude,I am looking for more online jobs. but it is hard to find.,,"""I hear that you're feeling frustrated with the challenges of finding online work. Could you tell me more about what this job search process has been like for you emotionally?""
+
+This question:
+- Acknowledges the client's difficulty (showing empathy)
+- Opens up discussion about their emotional experience
+- Allows the client to share more details about their specific challenges
+- Helps understand their perspective better
+- Keeps the focus on their personal experience rather than jumping to solutions",3.56,2025-06-08T21:05:26.782358,True
+32,claude,I am looking for more online jobs. but it is hard to find.,"supporter: Hello, how are you feeling at the moment? | seeker: hi! I am good. you?","""I hear that you're finding it challenging to find online jobs. Could you tell me more about what this job search process has been like for you emotionally?""
+
+This question:
+- Shows empathy by acknowledging their challenge
+- Opens up exploration of their emotional experience
+- Allows them to share more details about their struggles
+- Keeps the focus on their feelings and personal experience
+- Invites them to elaborate without making assumptions",2.6,2025-06-08T21:05:29.891141,True
+33,claude,I am looking for more online jobs. but it is hard to find.,"supporter: I have had to use foodbanks once or twice this year and I did feel a bit bad about it but everyone there was very kind and no-one judged us. | seeker: If i lose my main job I will use it | supporter: There is nothing to be ashamed of in doing so and when you get to a better position you can give back to them. | seeker: sorry about that, but that's good, people help each other | seeker: Absolutely! Volunteering is a great spirit.","""I hear that you're actively searching for online jobs and finding it challenging. Could you tell me more about what kind of online work you're interested in and what has been most frustrating about your search so far?""
+
+This question:
+- Shows empathy by acknowledging their struggle
+- Opens up discussion about their specific interests and goals
+- Helps explore both practical challenges and emotional experiences
+- Allows the client to share more details about their situation
+- Creates space for identifying potential solutions while letting the client lead the conversation
+
+Alternative follow-up questions could be:
+""How has this job search process been affecting you emotionally?""
+or
+""What kind of support would be most helpful for you during this job search?""",3.88,2025-06-08T21:05:34.278328,True
+34,claude,General depression made worse by the severity of the pandemic.,seeker: Hey there | seeker: How are you?,"""Thank you for reaching out today. I understand these have been particularly challenging times. Could you tell me more about how you've been feeling lately and what your daily experience has been like during the pandemic?""
+
+This open-ended question:
+- Shows empathy and acknowledgment of the difficult situation
+- Invites the client to share their personal experience
+- Focuses on both emotions (""how you've been feeling"") and specific impacts (""daily experience"")
+- Gives the client space to express what matters most to them
+- Helps establish rapport while gathering important information about their current state",3.51,2025-06-08T21:05:38.294270,True
+35,claude,General depression made worse by the severity of the pandemic.,"seeker: Hey there | seeker: How are you? | supporter: I AM FINE | supporter: HOW IS YOUR SIDE ? | seeker: I am ok, I'm having a hard time dealing with the pandemic though.","""Could you tell me more about how the pandemic has been affecting you emotionally? What aspects have been particularly challenging for you?""
+
+This question is appropriate because it:
+- Opens up space for the client to explore their feelings more deeply
+- Shows interest in their personal experience
+- Is open-ended and encourages elaboration
+- Acknowledges that the pandemic can affect people in different ways
+- Allows the client to focus on specific challenges they're facing
+- Demonstrates empathy while maintaining professional boundaries
+
+The question invites the client to share more about their emotional experience without making assumptions or offering premature solutions.",4.51,2025-06-08T21:05:43.306668,True
+36,claude,They are always demotivate my economic status. It hurts me a lot,seeker: I need some tips to overcome from that problem,"""When you say people demotivate you about your economic status, can you tell me more about how that makes you feel emotionally? What specific situations or comments have affected you the most?""
+
+This question:
+- Shows empathy by acknowledging their pain
+- Invites them to explore their emotional experience more deeply
+- Helps understand specific situations that trigger these feelings
+- Gives them space to share their story without judgment
+- Opens up conversation about both the external situation and internal impact
+
+The open-ended nature of the question allows the client to share what's most important to them while focusing on their emotional experience rather than just the financial circumstances.",3.92,2025-06-08T21:05:47.733044,True
+37,claude,They are always demotivate my economic status. It hurts me a lot,seeker: I need some tips to overcome from that problem | supporter: Hey. How can I help? | seeker: Give me some tips to get succeed in my life,"""I hear how painful it is when others make you feel bad about your economic status. Could you tell me more about how these experiences affect you emotionally and what success means to you personally?""
+
+This question:
+- Validates their emotional pain
+- Shows empathy for their situation
+- Opens up exploration of their personal feelings
+- Helps understand their individual definition of success
+- Allows them to share their story in their own words
+- Avoids making assumptions about their situation
+- Creates space for deeper discussion about both their challenges and aspirations",4.39,2025-06-08T21:05:52.627461,True
+38,claude,They are always demotivate my economic status. It hurts me a lot,seeker: Give me some tips to get succeed in my life | supporter: Okay. Well lets start with exactly what the problem is. What kind of tips do you need? | seeker: I was totally upset due to my financial career | supporter: Okay I understand. Tell me a little about that. | seeker: I had a lot of debts,"""I hear how painful and upsetting this financial situation is for you. Can you tell me more about how these debts and financial challenges are affecting you emotionally on a daily basis?""
+
+This question:
+- Validates their emotional pain (""I hear how painful..."")
+- Shows empathy for their situation
+- Opens up exploration of their emotional experience
+- Helps understand the full impact of the financial stress
+- Allows them to share their feelings in a safe space
+- Avoids judgment about their financial situation
+- Keeps focus on their experience rather than jumping to solutions
+
+The goal is to help them feel heard and understood while exploring how these challenges are impacting their mental and emotional wellbeing.",4.19,2025-06-08T21:05:57.317061,True
+39,claude,They are always demotivate my economic status. It hurts me a lot,seeker: I had a lot of debts | supporter: That is unfortunate. How did you accumulate such debt? | seeker: Because of this covid situation | supporter: That's tough. It has personally affect me as well as my financial health as well. I know the frustration. | seeker: So please tell me some advice,"""When you say people demotivate you about your economic status, how does that make you feel emotionally, and what would you like to be different about your situation?""
+
+This question:
+- Acknowledges their emotional pain (""it hurts me a lot"")
+- Explores the emotional impact of their situation
+- Opens up discussion about their goals and desires
+- Allows them to express both their feelings and hopes
+- Gives them space to identify what changes they want to make
+- Shows empathy while encouraging self-reflection
+
+The question is open-ended and allows the client to share more about their experience while moving toward solution-focused thinking.",3.39,2025-06-08T21:06:01.209888,True
+40,claude,They are always demotivate my economic status. It hurts me a lot,supporter: That is unfortunate. How did you accumulate such debt? | seeker: Because of this covid situation | supporter: That's tough. It has personally affect me as well as my financial health as well. I know the frustration. | seeker: So please tell me some advice | supporter: Well to do so I need a little more information. Have you already taken any steps to help your situation?,"""When people demotivate you about your economic status, how does that make you feel emotionally, and what would you like to be different about your situation?""
+
+This question:
+- Acknowledges their emotional pain (""it hurts me a lot"")
+- Opens up discussion about both feelings and goals
+- Shows empathy while encouraging self-reflection
+- Gives the client space to express their emotional experience
+- Helps explore what changes they want to make
+- Avoids judgment about their current situation
+- Can lead to more productive discussion about potential steps forward",4.12,2025-06-08T21:06:05.837414,True
+41,claude,"I really blew it with my girlfriend, so she left me right before Christmas.",supporter: Good afternoon | seeker: Hello.,"""I hear that you're going through a difficult breakup, especially during the holiday season. Could you tell me more about how you're feeling right now?""
+
+This question:
+- Shows empathy by acknowledging both the breakup and its difficult timing
+- Opens space for emotional exploration
+- Is non-judgmental (avoiding focus on ""blew it"")
+- Allows the client to share their current emotional state
+- Gives them the freedom to share what feels most important to them",4.38,2025-06-08T21:06:10.725697,True
+42,claude,"I really blew it with my girlfriend, so she left me right before Christmas.",supporter: Good afternoon | seeker: Hello. | supporter: How r u | seeker: Not doing too well.,"""I hear that you're going through a difficult time, especially with this happening during the holidays. Could you tell me more about how you're feeling right now?""
+
+This question:
+- Shows empathy and acknowledges the timing (holidays)
+- Opens space for emotional exploration
+- Is non-judgmental and doesn't make assumptions
+- Allows the client to share their experience in their own words
+- Focuses on current feelings while inviting deeper discussion",3.0,2025-06-08T21:06:14.230737,True
+43,claude,"I really blew it with my girlfriend, so she left me right before Christmas.",supporter: How r u | seeker: Not doing too well. | supporter: What is your day like | seeker: Bleak and depressing. How is yours going? | supporter: What seems to be the issue,"""I hear how difficult this breakup has been for you, especially during the holiday season. Could you tell me more about what you mean when you say you 'blew it'? What happened?""
+
+This question:
+- Shows empathy by acknowledging the pain and timing of the breakup
+- Opens space for the client to share their perspective and feelings
+- Avoids assumptions about the situation
+- Helps understand the client's role and interpretation of events
+- Is non-judgmental and invites honest reflection
+- Allows the client to process their experience in their own words",3.65,2025-06-08T21:06:18.389970,True
+44,claude,"I really blew it with my girlfriend, so she left me right before Christmas.",supporter: What is your day like | seeker: Bleak and depressing. How is yours going? | supporter: What seems to be the issue | supporter: What is making you feel this way | seeker: My girlfriend left me and I am all alone.,"""It sounds like you're going through a really difficult time, especially with this happening during the holidays. Could you tell me more about how you've been coping with these feelings of loneliness?""
+
+This question:
+- Acknowledges the emotional pain and validates their feelings
+- Shows empathy by recognizing the particularly challenging timing (holidays)
+- Opens up exploration of their coping mechanisms
+- Allows the client to elaborate on their emotional experience
+- Doesn't make assumptions or offer premature solutions
+- Creates space for the client to share more about their current emotional state",3.41,2025-06-08T21:06:22.305103,True
+45,claude,"I really blew it with my girlfriend, so she left me right before Christmas.","supporter: I can assume that the relationship was for awhile | seeker: We were together for six and a half years. | supporter: Breakups are hard especially when you have been together for awhile | seeker: Yes, and I think I will miss the pegging the most. No one can do it better or harder than her. | supporter: That was along time. 6 years. WAs the breakup sudden or had it gradually happened over time","""It sounds like this breakup is really impacting you. Can you tell me more about how you're coping with these feelings of loss and what this change means for you emotionally?""
+
+This question:
+- Acknowledges the emotional weight of the situation
+- Moves the conversation toward processing feelings in a healthy way
+- Opens space for the client to explore their emotional state
+- Maintains professional boundaries while showing empathy
+- Steers away from explicit content while respecting the client's experience
+- Focuses on the broader emotional impact of the relationship ending",3.23,2025-06-08T21:06:26.039403,True
+46,claude,"I really blew it with my girlfriend, so she left me right before Christmas.","supporter: That was along time. 6 years. WAs the breakup sudden or had it gradually happened over time | supporter: What may I ask is pegging | seeker: It was probably gradual, but it seemed like all of a sudden at the end. | supporter: had there been any disagreements | seeker: Pegging is when she puts on a strap on and pleasures me from behind. It is definitely a niche fetish.","""I hear how difficult this breakup has been for you, especially happening right before the holidays. Could you tell me more about how you're coping with these feelings right now?""
+
+This question:
+- Shows empathy for the timing and emotional impact
+- Opens space for the client to explore their current emotional state
+- Moves the focus to their present experience and coping mechanisms
+- Is non-judgmental and supportive
+- Allows the client to share at their own comfort level
+- Acknowledges the pain while encouraging self-reflection",3.96,2025-06-08T21:06:30.502368,True
+47,claude,"I really blew it with my girlfriend, so she left me right before Christmas.","seeker: Pegging is when she puts on a strap on and pleasures me from behind. It is definitely a niche fetish. | supporter: R u a female | seeker: The biggest disagreement was that she wanted to start pegging other guys, and I told her no way, we did not agree to that arrangement. | seeker: No I am a male. But please don't judge me, I am very fragile right now. | supporter: i am not judging you in anyway. Helps me better understand","""It sounds like this breakup has been really difficult for you, especially happening during the holiday season. Could you tell me more about how you're feeling emotionally right now?""
+
+This question:
+- Shows empathy for the timing and situation
+- Opens space for emotional exploration
+- Is non-judgmental and supportive
+- Moves away from specific relationship details to focus on the client's emotional wellbeing
+- Allows the client to share their feelings in a safe space
+- Doesn't make assumptions or offer direct advice",3.2,2025-06-08T21:06:34.201458,True
+48,claude,"I really blew it with my girlfriend, so she left me right before Christmas.","supporter: WAs there another person involved with the relationship or just you both | seeker: I really miss her a lot, I would let her peg those other guys if she wanted to, I just need to get her back in my life. I told her I would give her as many rimjobs that she requested. | seeker: There were other women and men that she would bring home for us to have threesomes with. It made me feel like she was in power. | supporter: sounds like you both had a solid relationship | seeker: Very solid like a rock. I feel like you are mocking me now. Are you a man or woman?","I notice you're expressing a lot of complex feelings about your relationship and its intimate dynamics. Could you help me understand what aspects of the relationship were most meaningful to you beyond the physical elements?
+
+This question:
+- Acknowledges the emotional weight of the situation
+- Shifts focus from purely physical aspects to deeper emotional content
+- Allows the client to reflect on the relationship's core meaning
+- Maintains professional boundaries while showing respect for their experience
+- Opens space for exploring feelings of loss and attachment in a healthier way",3.6,2025-06-08T21:06:38.302734,True
+49,claude,MY life has been completely upheaved by a cheating spouse who abandoned me and our children,supporter: hi | seeker: Hey | seeker: You there?,"""I hear that you're going through an incredibly difficult and painful situation with your spouse's infidelity and abandonment. This must be overwhelming for both you and your children. Could you tell me how you've been coping with these changes in your life?""
+
+This question:
+- Acknowledges the pain and difficulty of their situation
+- Shows empathy and validation of their experience
+- Opens the door for them to share their emotional experience
+- Focuses on their coping mechanisms, which can help assess their current state
+- Allows them to lead the conversation in the direction they feel most comfortable
+- Avoids judgment while offering support
+
+Alternative follow-up questions could be:
+""What has been the hardest",3.77,2025-06-08T21:06:42.573084,True
+50,claude,Trying to find a job,,"""Could you tell me a bit about how the job search process has been going for you, and how you've been feeling about it?""
+
+This open-ended question:
+- Invites the client to share their experience and emotions
+- Shows interest in both the practical aspects and emotional impact
+- Allows the client to lead with what's most important to them
+- Creates space for discussing both challenges and successes
+- Helps establish rapport at the beginning of the conversation
+- Doesn't make assumptions about whether the experience has been positive or negative
+
+The client can then choose to focus on either the practical aspects of their job search or their emotional experience, giving us direction for further exploration.",5.77,2025-06-08T21:06:48.852203,True
+51,claude,Trying to find a job,supporter: What canI do to help? | seeker: Hi! I am trying to find a new job for long time. There is no success in it | supporter: I feel bad for you. | supporter: There are many openings for Uber and Uber Eats.,"""I hear how challenging and frustrating this job search has been for you. Could you tell me more about what kind of work you're hoping to find and what's most important to you in your next job?""
+
+This question is appropriate because it:
+1. Acknowledges the emotional difficulty of their situation
+2. Opens up exploration of their career goals and values
+3. Helps understand their specific needs rather than jumping to quick solutions
+4. Gives the client space to share their preferences and aspirations
+5. Moves away from generic suggestions (like Uber) to focus on their personal career path
+
+The question is open-ended and encourages deeper discussion about their career aspirations while showing empathy for their current",4.4,2025-06-08T21:06:53.756756,True
+52,claude,Trying to find a job,seeker: Hi! I am trying to find a new job for long time. There is no success in it | supporter: I feel bad for you. | supporter: There are many openings for Uber and Uber Eats. | supporter: What were you doing before you were looking for a job? Were you in college? | seeker: I am not a good driver,"""I hear how challenging this job search has been for you. Could you tell me more about what type of work interests you or what skills you feel most confident using?""
+
+This question is appropriate because it:
+- Acknowledges the client's struggle with validation
+- Shifts the focus to their strengths and interests
+- Opens up exploration of potential career paths
+- Empowers the client to reflect on their capabilities
+- Moves away from the driving suggestion that wasn't suitable
+- Keeps the conversation constructive and forward-looking
+- Allows the client to share more about themselves without judgment",3.56,2025-06-08T21:06:57.819732,True
+53,claude,Trying to find a job,seeker: I am not a good driver | supporter: What do you find are your top skill sets? | seeker: I was working in an IT company as a program analyst | supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one,"""I hear how challenging this job search has been for you. Could you tell me more about what specific difficulties you're experiencing in your job search process?""
+
+This question:
+- Shows empathy by acknowledging their struggle
+- Opens up discussion about specific challenges they're facing
+- Helps identify areas where they might need support
+- Allows the client to express their frustrations and concerns
+- Can lead to more focused problem-solving discussions
+- Maintains a supportive, non-judgmental tone
+- Keeps the focus on their experience without making assumptions",2.99,2025-06-08T21:07:01.312165,True
+54,claude,Trying to find a job,supporter: What do you find are your top skill sets? | seeker: I was working in an IT company as a program analyst | supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one | supporter: How so? What is the specific difficulty? Is it with your resume?,"""I hear that you're feeling frustrated with your job search. Could you tell me more about what aspects of the job search process have been most challenging for you? For example, are you getting interviews but not offers, or are you finding it difficult to even get responses to your applications?""
+
+This question:
+- Acknowledges the emotional difficulty they're experiencing
+- Opens up the conversation to explore specific challenges
+- Helps identify where in the job search process they're getting stuck
+- Allows the client to elaborate on their experience
+- Shows empathy while gathering important information to better understand their situation
+- Keeps the focus on their experience without making assumptions",3.55,2025-06-08T21:07:05.371482,True
+55,claude,Trying to find a job,supporter: That is good that you have a good skill set that allows you to find something in the same field of IT. | seeker: I am really having hard time to get one | supporter: How so? What is the specific difficulty? Is it with your resume? | supporter: Are you feeling nervous? Anxious? | seeker: The reason is recession or might be COVID.,"""I hear how challenging this job search has been for you during these uncertain times. How has this situation been affecting you emotionally, and what has been helping you cope so far?""
+
+This question:
+- Validates their struggle with the current economic situation
+- Opens up exploration of their emotional experience
+- Shows empathy for their difficulties
+- Helps identify existing coping strategies
+- Allows them to share both their challenges and strengths
+- Keeps the focus on their experience while acknowledging external factors (recession, COVID)",3.55,2025-06-08T21:07:09.427235,True
+56,claude,Trying to find a job,supporter: How so? What is the specific difficulty? Is it with your resume? | supporter: Are you feeling nervous? Anxious? | seeker: The reason is recession or might be COVID. | supporter: Any other questions or concerns that you may have for me? | seeker: I am stressed,"""I hear how stressful this job search is for you, especially during these challenging economic times. Could you tell me more about how this stress is affecting you day to day?""
+
+This question:
+- Validates their feelings about the stress
+- Shows empathy by acknowledging the difficult circumstances
+- Opens up exploration of their emotional experience
+- Helps understand the impact of the situation on their daily life
+- Allows them to share more specific details about their struggles
+
+The question encourages the client to elaborate on their emotional state while keeping the focus on their experience, which can help identify potential coping strategies later in the conversation.",4.01,2025-06-08T21:07:13.937956,True
+57,claude,Trying to find a job,"seeker: I am stressed | supporter: Well, how do you adapt to the work issue? Do you like dogs? There are opportunities for dog walkers. | supporter: I made good money in the past walking my neighbors and friends dogs. | seeker: I don't have any pet so no experience with it | supporter: When I get stressed, I try to do vigorous exercises with pushups, chin ups, sit ups or walking fast.","""I hear that you're feeling stressed about finding a job. Could you tell me more about what kind of work you're interested in or what type of job would feel meaningful to you?""
+
+This question is appropriate because it:
+- Acknowledges the client's expressed stress
+- Shifts the focus back to their job search in a constructive way
+- Opens up exploration of their interests and values
+- Gives them space to share their thoughts and aspirations
+- Moves away from specific suggestions to understanding their needs
+- Empowers them to reflect on what they truly want in their career
+
+This question helps redirect the conversation from specific job suggestions (like dog walking) back to understanding the client's core needs and interests,",4.57,2025-06-08T21:07:19.010488,True
+58,claude,Trying to find a job,"supporter: Losing a job? It never happened for you before? | seeker: There are recreational parks, and trails near by | supporter: I would join a support group for those people who need support and want to change careers. | supporter: There are support groups online to help with job loss who can advise you on where to use your interests and skills to have a more fulfilling life. | seeker: I love my career just getting bit demotivated","""I hear that you love your career but are feeling demotivated right now. Could you tell me more about what aspects of your career bring you joy, and what's contributing to feeling demotivated lately?""
+
+This question is appropriate because it:
+- Validates the client's feelings about their career
+- Shows active listening by reflecting their statement
+- Opens up exploration of both positive aspects and current challenges
+- Allows the client to examine their situation more deeply
+- Maintains a supportive, non-judgmental tone
+- Helps understand the root cause of the demotivation while also focusing on strengths",4.13,2025-06-08T21:07:23.645181,True
+59,claude,Not sure how to explain that I want out of marriage,seeker: Hi,"""I hear that you're struggling with thoughts about leaving your marriage. Could you tell me more about what you're feeling right now?""
+
+This open-ended question:
+- Shows empathy and creates a safe space to share
+- Invites the client to explore their emotions
+- Doesn't make assumptions about their situation
+- Allows them to share at their own comfort level
+- Focuses on their current emotional state
+
+This question helps begin the conversation gently while acknowledging the weight of their situation. It lets them know they can safely express their feelings without judgment.",4.12,2025-06-08T21:07:28.272732,True
+60,claude,Not sure how to explain that I want out of marriage,"seeker: I do not know how to tell my husband that I am lonely and I want out of the marriage | supporter: Oh, that sure is a heavy subject and a heavy thing to be on your mind. | seeker: He is not one you can talk to he usually just brushes things off | supporter: So you have tried to discuss your loneliness with your husband before? | seeker: Yes he tells me it’s just in my head and I could just go out with him, but he drinks then to much so I do not like going out with him","""It sounds like you're feeling both lonely and unheard in your marriage. When you think about sharing these feelings with your husband, what are you most afraid might happen?""
+
+Rationale: This question:
+- Validates the client's feelings of loneliness and communication struggles
+- Explores the deeper fears and barriers around having this difficult conversation
+- Helps understand the emotional complexity of the situation
+- Opens up discussion about specific concerns that may be holding them back
+- Shows empathy while encouraging self-reflection
+- Allows the client to explore their hesitations in a safe space
+
+This question can help uncover underlying concerns that need to be addressed and may help the client better understand their own feelings about the situation",3.85,2025-06-08T21:07:32.641945,True
+61,claude,Not sure how to explain that I want out of marriage,"supporter: So you have tried to discuss your loneliness with your husband before? | seeker: Yes he tells me it’s just in my head and I could just go out with him, but he drinks then to much so I do not like going out with him | supporter: I am sure that is frustrating! Does he drink at home as well or just when you go out? | seeker: Just when he goes out I do not go with him I do not drink and drive | seeker: And he hangs with some obnoxious people","""It sounds like there's a significant disconnect between you and your husband, especially around social activities and his drinking. How does it make you feel when he dismisses your feelings of loneliness as 'just in your head'?""
+
+This question:
+- Validates the client's experience
+- Explores the emotional impact of her husband's dismissive behavior
+- Opens up discussion about the deeper relationship issues
+- Shows understanding of the challenging situation
+- Allows the client to reflect on her feelings without judgment
+- Could help reveal more about the root causes of wanting to end the marriage",4.91,2025-06-08T21:07:38.056911,True
+62,claude,"Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.",,"""How are you feeling about spending this weekend alone, and what emotions come up for you when you think about your friends being away?""
+
+This question:
+- Opens up exploration of the client's emotional experience
+- Validates that it's natural to have feelings about this situation
+- Allows the client to reflect on both their immediate situation and their broader feelings about friendship/loneliness
+- Keeps the focus on their personal experience
+- Is open-ended and invites deeper discussion
+- Shows empathy by acknowledging the challenging situation",3.43,2025-06-08T21:07:41.996423,True
+63,claude,"Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.","supporter: Hello how are you? | seeker: I'm, okay, thanks, and you? I'm feeling a bit down because I'm alone for the holidays.","""I hear that feeling alone during the holidays is really difficult for you. Could you tell me more about how you're coping with these feelings of loneliness right now?""
+
+This question:
+- Validates their emotional experience
+- Shows empathy by acknowledging their difficulty
+- Opens up exploration of their current coping mechanisms
+- Allows them to share more about their immediate experience
+- Is open-ended and encourages deeper reflection
+- Focuses on their emotional state while showing support",3.69,2025-06-08T21:07:46.191884,True
+64,claude,"Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.","supporter: Hello how are you? | seeker: I'm, okay, thanks, and you? I'm feeling a bit down because I'm alone for the holidays. | supporter: Well that's no good, does your family live far away? | seeker: Yes, my family is scattered all over the country, like Seattle, Georgia, PA. I'm sure I'm not the only one with no plans this weekend, though. | supporter: True but I can understand that, it is hard being alone at the holidays.","""When you're feeling alone like this, what kinds of activities or strategies have helped you cope in the past?""
+
+This question is appropriate because it:
+- Acknowledges and validates their feeling of loneliness
+- Encourages self-reflection
+- Focuses on their existing coping strengths
+- Opens discussion about positive solutions without giving direct advice
+- Empowers the client to explore their own resources
+- Shows respect for their past experiences in handling similar situations
+
+Alternative variations could be:
+""How would you like to spend this time for yourself?""
+or
+""What feelings come up for you when you think about spending the weekend alone?""",3.83,2025-06-08T21:07:50.566734,True
+65,claude,"Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.","supporter: I have never understood how those work..I find it amazing someone can type out whole words or sentences with one word | seeker: Yeah, it's pretty cool. For example, if I hit DRAT in one stroke, then ""Did there come a time"" will appear in English on my machine's LCD screen. | supporter: Wow that is crazy, I don't understand how that works, is it preprogrammed or does it go by how the word sounds? | seeker: Each stenographer has their own ""Personal Dictionary"" which is a list of words in English along with how you in particular write out those words or phrases in steno. This dictionary is present within the actual steno machine after you transfer it from your laptop to the machine via cable or wifi. Thus your machine then knows how you write out words in particular and how to translate those words from steno to English - each stenographer writes a little differently. | supporter: OK that makes sense, so you basically program it as the user. I take it your stenography machine becomes pretty close to you lol","""How are you feeling about spending this weekend alone, and what emotions come up for you when you think about your friends being away?""
+
+This question:
+- Directly addresses the emotional impact of the current situation
+- Opens up exploration of feelings around loneliness and social connection
+- Shows empathy by acknowledging the challenging situation
+- Allows the client to reflect on their emotional response
+- Keeps the focus on their experience rather than jumping to solutions
+
+The question is open-ended and invites the client to share their deeper feelings about the situation, which can lead to a more meaningful discussion about their social needs and coping strategies.",4.21,2025-06-08T21:07:55.283362,True
+66,claude,"Not having enough friends nearby.  My three nearby friends went away for holidays, so I have no one to spend time with over this weekend.","supporter: Have a good rest of this year and don't forget to make your New Year's resolution! | seeker: I will do that - you too. Thanks, again... | supporter: Not really, stayed home lol... Have a good one! | seeker: You too... bye now... | supporter: Good day!","""How are you feeling about spending this weekend alone, and what thoughts come up for you when you think about having limited social connections nearby?""
+
+This question:
+- Acknowledges the immediate situation (being alone for the weekend)
+- Explores both emotional impact and thought patterns
+- Opens up discussion about deeper feelings regarding social connections
+- Allows the client to express potential concerns or anxieties
+- Is open-ended and non-judgmental
+- Shows empathy while inviting deeper reflection
+
+The question can help uncover whether this is a temporary concern or part of a larger pattern that's affecting the client's wellbeing, allowing for further exploration of coping strategies and potential solutions.",4.34,2025-06-08T21:08:00.126479,True
+67,claude,friends trying to let me down,seeker: Hi | supporter: hello | seeker: Hope you are doing well,"""I hear that you're dealing with friends letting you down. That can be really difficult. Could you tell me more about what's been happening with your friends and how it's making you feel?""
+
+This question:
+- Shows empathy for their situation
+- Opens the door for them to share their experience
+- Explores both the situation and their emotional response
+- Is non-judgmental and supportive
+- Allows them to express their perspective freely",3.61,2025-06-08T21:08:04.239927,True
+68,claude,friends trying to let me down,"supporter: if i get you clearly, you mean your friend disappointed you. how? | seeker: Yes. There were a argument between two of my friend while trying to resolve the issue they all started targeting me. | supporter: i have a hard time with my friends too sometimes | seeker: Then what you do at that time | supporter: i used to give them time to cool off, when they are back to their senses, they will contact me and apologize","""How are you feeling emotionally right now about being targeted by your friends during their argument? It sounds like a really challenging situation to be caught in the middle.""
+
+This question:
+1. Focuses on the client's emotional experience
+2. Validates the difficulty of their situation
+3. Shows empathy for their position
+4. Opens space for them to explore their feelings
+5. Doesn't make assumptions or offer direct advice
+6. Acknowledges the complex dynamic of being caught between friends",3.66,2025-06-08T21:08:08.404909,True
+69,claude,I lost my job due to Covid 19 and I can't find a new one. I'm scared!,seeker: I recently lost my job due to Covid 19 and I'm scared.,"""I hear how scared you're feeling about losing your job during such a challenging time. Can you tell me more about what feels most frightening to you right now?""
+
+This question:
+- Validates their emotional experience by acknowledging their fear
+- Shows empathy and understanding of their situation
+- Opens up space for them to explore their specific concerns
+- Is open-ended to allow for deeper exploration
+- Helps identify what aspects of job loss are causing the most distress
+- Allows the client to direct the conversation toward their most pressing concerns
+
+The question aims to help the client process their emotions while gathering more information about their specific situation and concerns.",3.7,2025-06-08T21:08:12.609907,True
+70,claude,I lost my job due to Covid 19 and I can't find a new one. I'm scared!,"supporter: I feel bad for you, but there are options. | seeker: What do you recommend? | supporter: I suggest working on your resume and hitting job boards. | seeker: Oh that's a great idea. What job boards do you recommend? | seeker: I've never used one before.","""I hear how scary this situation is for you. Before we dive into specific job boards, could you tell me more about what's most frightening to you about this situation right now?""
+
+This question is appropriate because it:
+1. Validates their emotional experience (""I hear how scary..."")
+2. Returns focus to their emotional state rather than jumping to solutions
+3. Helps explore the root of their fears, which may reveal underlying concerns
+4. Opens space for them to share more deeply about their experience
+5. Moves away from direct advice-giving to better understand their perspective
+
+This approach allows us to better understand their specific needs and concerns before discussing practical steps, ensuring we address both their emotional and practical needs in a",5.86,2025-06-08T21:08:18.973952,True
+71,claude,I lost my job due to Covid 19 and I can't find a new one. I'm scared!,seeker: Oh that's a great idea. What job boards do you recommend? | seeker: I've never used one before. | supporter: Was it just you that lost the job or a whole unit/department? | seeker: It was jus tme | supporter: Google your past job title title and add openings.,"""How are you coping with these feelings of fear and uncertainty right now?""
+
+This question is appropriate because it:
+- Acknowledges and validates the client's expressed emotion (fear)
+- Opens space for the client to explore their emotional experience
+- Shows empathy for their difficult situation
+- Helps understand their current coping mechanisms
+- Keeps focus on the client's immediate emotional needs rather than jumping to solutions
+- Allows the client to share more about their personal experience with job loss
+
+This question can help lead to a deeper discussion about their emotional well-being while dealing with this challenging situation, before moving into more practical aspects of job searching.",3.94,2025-06-08T21:08:23.415941,True
+72,claude,I lost my job due to Covid 19 and I can't find a new one. I'm scared!,"seeker: It was jus tme | supporter: Google your past job title title and add openings. | supporter: Was it a computer job or a job where you have to be working in-person? | seeker: I worked in a restaurant as a server. I don't have any other formal job training, I'm not sure what else I can do. | supporter: May I suggest Uber, Lyft, Door Dash or Grub Hub or Uber Eats?","""I hear how scared and uncertain you're feeling right now. It sounds like this job loss has really impacted you. Could you tell me more about what worries you most about your current situation?""
+
+This question:
+- Validates their emotional experience (fear and uncertainty)
+- Shows empathy and understanding
+- Opens up space for deeper exploration of their concerns
+- Allows the client to identify specific aspects of their situation that are most troubling
+- Helps focus the conversation on their immediate needs and feelings rather than jumping to solutions
+
+The question is open-ended and allows the client to share more about their emotional experience while also potentially revealing practical concerns that could be addressed later in the conversation.",3.88,2025-06-08T21:08:27.803829,True
+73,claude,I lost my job due to Covid 19 and I can't find a new one. I'm scared!,"supporter: I read that all you need is to wear a mask as you drive around to put up and deliver food to the masses. | supporter: Plus, gas prices are relatively cheap at 2.25 a gallon, nationally. | seeker: yeah definitely! Contact free probably! WOw that is great advice. | seeker: Ok I will check into food delivery! | supporter: You can also send out flyers to do dog walking in the neighborhood.","""I hear how scary this situation is for you. While you're exploring these different options like food delivery, could you tell me more about what worries you most about your current situation?""
+
+This question:
+- Validates their emotional experience (""I hear how scary..."")
+- Shows empathy and understanding
+- Opens up deeper exploration of their concerns
+- Allows the client to express their underlying fears
+- Helps identify specific areas where they need support
+- Moves beyond surface-level solutions to understand core emotions
+- Gives them space to share what matters most to them
+
+This type of open-ended question can help us better understand their specific challenges and emotional state while maintaining a supportive, non-judgmental environment.",4.78,2025-06-08T21:08:33.089443,True
+74,claude,I lost my job due to Covid 19 and I can't find a new one. I'm scared!,seeker: yeah definitely! Contact free probably! WOw that is great advice. | seeker: Ok I will check into food delivery! | supporter: You can also send out flyers to do dog walking in the neighborhood. | supporter: Do you like doggies? | seeker: Unfortunately I am allergic to dogs,"""I hear how scared you are about your job situation, and it's completely understandable. Could you tell me more about what worries you the most right now?""
+
+This question:
+- Validates their emotional experience of fear
+- Shows empathy and understanding
+- Opens up space for them to explore their specific concerns
+- Helps identify the core issues causing their anxiety
+- Allows them to share more details about their situation without being too directive
+
+Alternative follow-up questions could be:
+""How have you been coping with this uncertainty so far?""
+""What kinds of work opportunities would you feel most comfortable exploring given your current situation?""",4.21,2025-06-08T21:08:37.798916,True
+75,claude,Fear of layoff from job,,"""Can you tell me more about what you're experiencing right now regarding your job situation and how it's affecting you emotionally?""
+
+This open-ended question:
+- Shows empathy and creates a safe space for the client to share
+- Helps understand both the situational context and emotional impact
+- Allows the client to express their immediate concerns
+- Doesn't make assumptions about their feelings
+- Gives them control over what aspects they want to discuss first
+
+The question invites the client to share both factual and emotional elements of their situation, which will help guide further exploration of their fears and concerns.",3.7,2025-06-08T21:08:41.999911,True
+76,claude,Fear of layoff from job,supporter: hi | seeker: Hello,"""I understand you're dealing with fears about being laid off, which can be really stressful. Could you tell me more about what's making you feel worried about your job security right now?""
+
+This question:
+- Shows empathy by acknowledging the stressful nature of the situation
+- Opens the door for the client to share their specific concerns
+- Is open-ended to encourage deeper exploration
+- Doesn't make assumptions about their situation
+- Focuses on their current emotional experience",4.01,2025-06-08T21:08:46.517619,True
+77,claude,I am depressed staying at home due to COVID.,"seeker: Hi | supporter: hello there, how are you | seeker: Doing well. How are you?","""I hear that you're feeling depressed while staying at home during COVID. Could you tell me more about what's been most challenging for you during this time?""
+
+This question:
+- Shows empathy by acknowledging their stated feeling of depression
+- Opens up the conversation to explore specific challenges
+- Allows the client to share their personal experience
+- Is open-ended and non-judgmental
+- Helps understand the root causes of their depression
+- Gives the client space to express their emotions and concerns
+
+Alternative follow-up questions could be:
+""How has your daily routine changed since staying at home?""
+""What do you miss most about your pre-COVID life?""
+
+But the first question is most appropriate",3.91,2025-06-08T21:08:50.929709,True
+78,claude,I am depressed staying at home due to COVID.,"seeker: Doing well. How are you? | supporter: Good, im ok thanks. What would like to discuss? | seeker: I am depressed staying home due to COVID. | supporter: Oh so sorry to hear. Would you feel a little bit happy when you think when it is over, next year probably? | seeker: Absolutely... can't wait until its over !!","""While we're looking forward to this being over, I'm wondering what specific aspects of staying at home have been most challenging for you? What do you miss the most?""
+
+This question is appropriate because it:
+1. Acknowledges the client's desire for the situation to end
+2. Explores the deeper emotional impact of their current circumstances
+3. Helps identify specific challenges that could potentially be addressed
+4. Opens up discussion about what matters most to them
+5. Shows empathy while moving the conversation toward understanding their experience
+
+The question avoids giving direct advice and instead encourages the client to reflect on their experiences, which can lead to more meaningful discussion about coping strategies.",3.87,2025-06-08T21:08:55.308369,True
+79,claude,Just can't shake my sadness,"seeker: Hi | supporter: Helo, how are you? | seeker: Can't seem to shake this overall sadness I feel.","""I hear that you're dealing with persistent sadness. Could you tell me more about when you first started noticing these feelings?""
+
+This question:
+- Shows empathy by acknowledging their emotional state
+- Opens the door for them to share their experience in their own words
+- Helps understand the timeline and potential triggers
+- Is open-ended to encourage deeper exploration
+- Doesn't make assumptions about their situation
+- Creates a safe space for them to express themselves",2.68,2025-06-08T21:08:58.491259,True
+80,claude,Just can't shake my sadness,"seeker: Can't seem to shake this overall sadness I feel. | supporter: Are you feeling sort of depressed? I am sorry | seeker: Yes I am | supporter: Would you feel happy if you think about after Covid, maybe next year? | seeker: I am hoping I will. I just have such a hopeless feeling.","""Can you tell me more about this hopeless feeling - when do you notice it's strongest during your day, and what does it feel like for you?""
+
+This question is appropriate because it:
+1. Shows empathy by acknowledging their emotional state
+2. Invites deeper exploration of their feelings
+3. Helps understand the specific nature and pattern of their depression
+4. Allows the client to express their experience in their own words
+5. Opens the door for identifying potential triggers or patterns
+6. Demonstrates genuine interest in understanding their struggle
+
+The question avoids rushing to solutions and instead creates space for the client to explore their emotions more fully, which is important when working with depression and feelings of hopelessness",4.97,2025-06-08T21:09:03.969746,True
+81,claude,Just can't shake my sadness,"seeker: Yes I am | supporter: Would you feel happy if you think about after Covid, maybe next year? | seeker: I am hoping I will. I just have such a hopeless feeling. | supporter: have you been sleeping enough? | seeker: Yes, probably too much.","""I hear how deeply this sadness and hopelessness is affecting you. Could you tell me more about what this hopeless feeling is like for you - what thoughts and emotions come up when you experience it?""
+
+This question:
+- Shows empathy by acknowledging their emotional state
+- Opens up exploration of their feelings in a gentle way
+- Allows the client to share their experience in their own words
+- Moves beyond surface symptoms (like sleep) to deeper emotional content
+- Doesn't make assumptions or offer quick solutions
+- Creates space for the client to reflect on their experience",3.88,2025-06-08T21:09:08.350654,True
+82,claude,Just can't shake my sadness,"supporter: have you been sleeping enough? | seeker: Yes, probably too much. | supporter: Do you like morning or night? | seeker: Probably morning. | supporter: Me too. I like morning too. Air feels fresh, although it is little contaminated here. At night time, I feel a little bit anxiety more.","""I hear that you're dealing with persistent sadness, and you mentioned sleeping quite a bit. Could you tell me more about what your mornings typically feel like when you wake up?""
+
+This question is appropriate because it:
+1. Acknowledges the client's core concern (sadness)
+2. Builds on their previous response about preferring mornings
+3. Opens space for them to explore their emotional experience
+4. Is open-ended and allows for deeper exploration
+5. Shows empathetic interest in their daily experience
+6. Could help identify patterns between their mood and daily routine",3.77,2025-06-08T21:09:12.618413,True
+83,claude,I had a huge fight with my girlfriend and she left me.  She accused me of neglecting her even though I needed to spend time with my family and spent as much time with her as I could.,"seeker: Hi I am feeling blue, things aren't going well at all","""I hear how difficult this situation is for you. It sounds like you're feeling caught between your girlfriend's needs and your family obligations. Could you tell me more about how you're feeling right now about everything that's happened?""
+
+This question:
+- Shows empathy for the client's emotional state
+- Opens space for emotional exploration
+- Doesn't take sides or make judgments
+- Allows the client to share their perspective more deeply
+- Acknowledges the complexity of balancing relationships
+- Encourages self-reflection while maintaining a supportive tone",4.66,2025-06-08T21:09:17.785035,True
+84,claude,Not being able to see family and friends due to Covid.,"seeker: Hello | supporter: Hi, how are you feeling today? | seeker: I am not feeling the best. I have been having some depression, because of not being able to see friends and family during this pandemic.","""I hear how difficult this isolation has been for you. Could you tell me more about what you miss most about spending time with your friends and family?""
+
+This question:
+- Shows empathy by acknowledging their emotional struggle
+- Opens up discussion about specific aspects of their relationships they're missing
+- Allows them to explore their feelings more deeply
+- Validates their experience of depression during this challenging time
+- Keeps the focus on their personal experience and emotions
+- Encourages them to share more details that can help process their feelings",3.39,2025-06-08T21:09:21.673751,True
+85,claude,Not being able to see family and friends due to Covid.,"seeker: Hello | supporter: Hi, how are you feeling today? | seeker: I am not feeling the best. I have been having some depression, because of not being able to see friends and family during this pandemic. | supporter: Oh, boy, do I know that feeling! How are you dealing with it? (if I may ask) | seeker: I try to message them as much as possible and call them on the phone but it is just not the same as actually getting to give the a hug and see them in person.","""It sounds like you really miss that physical connection and in-person interaction with your loved ones. Could you tell me more about what those meaningful in-person moments mean to you, and how their absence is affecting you emotionally?""
+
+This question:
+- Validates their feelings about missing physical connection
+- Shows empathy by acknowledging the difference between virtual and in-person contact
+- Encourages deeper exploration of their emotional experience
+- Opens up discussion about the specific impact on their well-being
+- Allows them to express what they value most about in-person relationships",4.17,2025-06-08T21:09:26.346082,True
+86,claude,My ex partner is harassing me and will not stop talking to my friends and family.,seeker: Hello | supporter: Hi! How are you today? | seeker: I have been better,"""I hear that you're going through a difficult situation with your ex-partner. Can you tell me more about how this harassment is affecting you emotionally and what impact it's having on your daily life?""
+
+This question:
+- Shows empathy by acknowledging the difficulty of the situation
+- Opens space for the client to explore their emotional experience
+- Helps understand the scope and impact of the problem
+- Remains non-judgmental while inviting the client to share more details
+- Allows the client to lead the conversation in the direction they feel most important",3.33,2025-06-08T21:09:30.177075,True
+87,claude,My ex partner is harassing me and will not stop talking to my friends and family.,seeker: My ex partner and I broke up a long time ago because they cheated on me. Now they will not stop contacting my friends and family and posting about me on social media | supporter: That sounds difficult and stressful. What do you do when you see it happening? | seeker: I usually just document it and try to not go online for a while. It is hard to ignore | supporter: It sounds like you are avoiding things you enjoy because of their actions. I think documenting it is a good idea! Have you tried reporting them for harassing you? | seeker: I have tried but everyone just tells me there is nothing they can do because they don't think it is dangerous or criminal at this point,"""How has this ongoing situation been affecting your emotional well-being and daily life? I hear that you're feeling frustrated with the lack of support from others.""
+
+This question:
+- Shows empathy for their difficult situation
+- Opens up discussion about the emotional impact of the harassment
+- Validates their experience when others have dismissed it
+- Allows them to explore both the practical and emotional consequences
+- Gives them space to share more about their personal experience
+- Could help identify areas where additional support or coping strategies might be needed
+
+The question is open-ended and non-judgmental, while acknowledging both the direct issue and the frustration of not being taken seriously by others.",4.87,2025-06-08T21:09:35.550670,True
+88,claude,My ex partner is harassing me and will not stop talking to my friends and family.,"seeker: I have tried but everyone just tells me there is nothing they can do because they don't think it is dangerous or criminal at this point | supporter: That must be very frustrating. Can you tell me if you’ve tried other things to get them to stop? | seeker: I have confronted them in person but it was dramatic to say the least. They basically had a meltdown that they don't want to lose me | supporter: You tried to do the right thing and they are having a difficult time letting go. The ongoing comments through social media sounds like they are wanting your attention. That can be exhausting for you. In my past, I had to block someone who did something similar to me. If my friends mentioned seeing something from my ex about me, I asked them to keep it to themselves or consider blocking them,too. The people who were closest to me understood what was going on and I realized that people who didn’t know me, didn’t matter. Would you be willing to suggest this to friends or family if it would help to remove the ex from your interactions? | seeker: I have encouraged my friends to block them as well, but a new account always pops up. My ex really will not give up.","""I hear how persistent and overwhelming this situation is becoming. How has all of this harassment been affecting your daily life and emotional well-being?""
+
+This question is appropriate because it:
+- Acknowledges the ongoing nature of the harassment
+- Shows empathy for the difficult situation
+- Shifts focus to the client's emotional experience
+- Opens up discussion about personal impact
+- Allows the client to share deeper feelings about the situation
+- Could help identify areas where additional support or coping strategies might be needed
+
+The question avoids giving direct advice while encouraging the client to explore their emotional experience and the broader impact of this situation on their life.",4.61,2025-06-08T21:09:40.664701,True
+89,claude,I am very scared about next college semester it is frightening,seeker: hello,"""I hear that you're feeling really frightened about the upcoming college semester. Could you tell me more about what specifically feels scary to you?""
+
+This question:
+- Validates their emotional experience by acknowledging their fear
+- Opens the door for them to explore their specific concerns
+- Shows empathy and interest in understanding their situation better
+- Is open-ended, allowing the client to share what matters most to them
+- Helps identify the root causes of their anxiety about the semester",3.26,2025-06-08T21:09:44.427625,True
+90,claude,I am very scared about next college semester it is frightening,"seeker: hello | supporter: Hi there, how can I help you? | seeker: I would like some help with the problem I am facing","""Can you tell me more about what specifically feels frightening to you about the upcoming semester?""
+
+This question is appropriate because it:
+- Shows empathy by acknowledging their fear
+- Opens up space for them to explore their specific concerns
+- Is open-ended, allowing the client to share what matters most to them
+- Helps understand the root of their anxiety
+- Doesn't make assumptions about what aspects are causing the fear
+- Demonstrates active listening and genuine interest in their experience",3.32,2025-06-08T21:09:48.247176,True
+91,claude,"I lost my job Due to COVID-19 , I really work hard for the company for past five years but they just through out from the company.",seeker: Hai friend how are you?,"""I hear how difficult and unfair this situation feels, especially after dedicating five years of hard work to the company. Could you tell me more about how you're coping with these feelings since losing your job?""
+
+This question:
+- Acknowledges the emotional impact and validates their experience
+- Shows empathy for their dedication and sudden loss
+- Opens space for them to explore their emotional state
+- Focuses on their coping mechanisms
+- Allows them to share more about their experience in their own words
+
+The question is open-ended and invites the client to share more deeply about their emotional experience while demonstrating that their feelings are valid and understood.",4.51,2025-06-08T21:09:53.265581,True
+92,claude,"I'm kind of just generally feeling seasonal depression as I don't feel happy,",seeker: Hello there,"""I hear that you're struggling with feelings of unhappiness, particularly with seasonal depression. Could you tell me more about how these feelings have been affecting your daily life and what changes you've noticed in yourself lately?""
+
+This question:
+- Shows empathy by acknowledging their feelings
+- Opens the door for deeper exploration of their experience
+- Is open-ended to encourage detailed sharing
+- Helps understand the impact on their daily functioning
+- Allows the client to describe their experience in their own words",3.49,2025-06-08T21:09:57.262394,True
+93,claude,"I'm kind of just generally feeling seasonal depression as I don't feel happy,","seeker: Hello there | supporter: Hi, how are you? | seeker: Im okay, just a bit out of it","""I hear that you're feeling down and experiencing what feels like seasonal depression. Could you tell me more about what 'feeling out of it' means for you, and how it's affecting your daily life?""
+
+This question:
+- Shows empathy by acknowledging their current emotional state
+- Opens space for them to elaborate on their experience
+- Is open-ended to encourage deeper exploration
+- Connects their initial statements about feeling ""out of it"" and seasonal depression
+- Allows them to share more specific details about their situation in their own words
+
+The question aims to help the client explore their feelings while showing that you're actively listening and interested in understanding their experience better.",4.41,2025-06-08T21:10:02.177081,True
+94,claude,"I'm kind of just generally feeling seasonal depression as I don't feel happy,","supporter: Yes, it is the same for most of the people. Any thing particular bothering you? | seeker: I think just general how covid hasn't been resolved yet | seeker: Its sad being stuck at home | supporter: So, you cannot go out due to COVID and that makes you frustrated. Is that correct? | seeker: More sad I would say","""Could you tell me more about how this sadness feels for you, and what you miss most about life before being stuck at home?""
+
+This question:
+- Validates their identified emotion of sadness
+- Opens space for deeper emotional exploration
+- Shows empathy for their situation
+- Allows them to share specific impacts on their life
+- Helps understand what particular aspects of social connection or activities they're missing
+- Is open-ended to encourage detailed reflection
+
+The question aims to help the client explore their feelings while acknowledging the real impact of their current situation with COVID restrictions and being homebound.",4.61,2025-06-08T21:10:07.293046,True
+95,claude,"I'm kind of just generally feeling seasonal depression as I don't feel happy,","seeker: No not really. I just finished the semester | supporter: You could explore some of your hobbies, such as music, painting, or workingout.. | seeker: Hmm what specific hobbies would you recomend? | supporter: Whichever you enjoy.. pick one. There are a lots of online resources you cloud use. | seeker: Do you know of any specific online resources? I haven't looked at this before","""I hear that you're struggling with seasonal depression and feeling unhappy. Before we explore specific activities, could you tell me more about what kinds of things have brought you joy or interest in the past, even if it was just a small moment of happiness?""
+
+This question:
+- Shows empathy by acknowledging their feelings
+- Opens up exploration of positive experiences
+- Helps identify potential interests without being prescriptive
+- Allows the client to reflect on their own experiences
+- Creates a foundation for discussing potential activities that might genuinely resonate with them",3.29,2025-06-08T21:10:11.084695,True
+96,claude,breakup with partner,,"""Can you tell me what's been happening with this breakup and how you've been feeling about it?""
+
+This open-ended question:
+- Shows empathy and creates a safe space for the client to share
+- Allows the client to start wherever they feel comfortable
+- Addresses both the situation and emotional components
+- Doesn't make assumptions about the nature of the breakup or their feelings
+- Gives the client control over what they want to share first
+
+This question helps establish rapport while gathering initial information about both the situation and the client's emotional state, which will help guide further exploration of their experience.",3.7,2025-06-08T21:10:15.285574,True
+97,claude,breakup with partner,supporter: Hey there! How are you feeling today? | seeker: Not so well,"""I hear that you're not feeling well. Would you feel comfortable telling me more about what's been going on with this breakup and how it's affecting you?"" This question: - Shows empathy by acknowledging their current emotional state - Opens the door for them to share their experience at their own comfort level - Is open-ended to allow for deeper exploration of their feelings - Doesn't make assumptions about their situation - Gives them control over how much they want to share The question invites them to express their emotions and thoughts while maintaining a supportive, non-judgmental environment.",3.75,2025-06-08T21:10:19.540073,True
+98,claude,breakup with partner,"seeker: I taught that she was my everything hereafter. | seeker: but the fate plays a great game upon me | supporter: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings? | seeker: I have some activities to do so, but i cannot able to concentrate on what i am doing | supporter: Okay, that's very understandable. I'm sure there's another strategy we can come up with.","""It sounds like you're really struggling with the pain of this breakup and finding it hard to focus on anything else. Could you tell me more about what feelings come up for you when you try to engage in activities?""
+
+Rationale: This question:
+- Validates the client's emotional struggle
+- Shows empathy by acknowledging their difficulty concentrating
+- Opens up exploration of their emotional experience
+- Helps connect their current behavior (inability to focus) with their emotional state
+- Allows the client to express themselves more deeply without pushing them in any particular direction
+- Creates space for them to identify specific emotions that might be overwhelming them",4.15,2025-06-08T21:10:24.190846,True
+99,claude,breakup with partner,"supporter: Okay, that's very understandable. I'm sure there's another strategy we can come up with. | supporter: Do you have a friend or family member you can talk about your feelings with? | seeker: yeah! i have few friends | supporter: That's great. You've already taken a huge step by reaching out for help and that's a big deal! A good next step might be letting the people around you know that you need some support at this time. Sometimes people don't know something until you tell them, even if it seems obvious. Is that something you can do? | seeker: But i can't tell this to them because they also become sad when they know about this","""I hear that you're concerned about making your friends sad by sharing your struggles. Could you tell me more about what worries you most about opening up to them?""
+
+This question:
+- Acknowledges the client's concern about burdening others
+- Explores the underlying fears about sharing their feelings
+- Shows empathy for their hesitation
+- Opens up discussion about their support system dynamics
+- Helps understand their perspective on vulnerability with friends
+- Allows them to reflect on their reasons for holding back
+
+This can lead to a deeper discussion about healthy ways to share feelings and the nature of mutual support in friendships.",4.11,2025-06-08T21:10:28.804845,True
